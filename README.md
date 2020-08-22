@@ -1,39 +1,61 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome Justin-Sawyer,
+# Nicer Tours
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is my User Centric Frontend Development Milestone Project for Code Institute.
 
-## Gitpod Reminders
+## Languages & Technologies used:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+HTML5
 
-`python3 -m http.server`
+CSS
 
-A blue button should appear to click: *Make Public*,
+JavaScript
 
-Another blue button should appear to click: *Open Browser*.
+Git
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+GitHub
 
-A blue button should appear to click: *Make Public*,
+GitPod
 
-Another blue button should appear to click: *Open Browser*.
+Bootstrap
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Google Fonts
 
-## Updates Since The Instructional Video
+Font Awesome
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Credits (general)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Code Institute](https://codeinstitute.net/) for the tuition.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[This little fellow](https://www.sciencephoto.com/media/1008843/view/colorectal-cancer-cell-sem) for making me see sense.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+GG for the constant presence and encouragement. You are a pearl!
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Credits (technologies, scripts)
 
-Happy coding!
+Bootstrap for the Navbar and banner-image code. 
+I used a nested container set up - the image is the first, and contains two further containers: 
+One on the left for the "company name" and one on the right for the navigation.
+
+As bootstrap NavBars conform to a format, that of image / nav links grouped on a certain side of the screen, 
+I decided that using this nested set up was better for what I was trying to achieve.
+
+What I wanted was a rising NavBar with the company name staying static at the bottom of its container.
+Thanks to [this Stack Overflow article](https://stackoverflow.com/questions/5288336/put-text-at-bottom-of-div) 
+I was able to achieve this effect.
+
+Similarly, [this article](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) 
+suggested the use of a Font Awesome icon for the toggle, as Bootstrap's toggles conform to set colours, 
+and try as I might, I could not change these presets.
+
+## Credits (photos)
+
+Unless otherwise stated, all images are my own. Some may appear on [this website](https://www.sunnydaysnice.com). 
+The website owners are my former employers, and used my photos for their website.
+You can confirm this by email: welcome@sunnydays.fr 
+
+## Future plans
+
+Change the scroll direction of the banner image on the Home page so that the city of Nice and its beach is visible on smaller devices.
