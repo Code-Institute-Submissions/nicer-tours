@@ -34,6 +34,8 @@ p {
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .company-name span {
@@ -84,8 +86,12 @@ p {
 .footer-section {
     background-color: rgba(0, 47, 167, 0.75);
     color:white;
+    padding-top: 20px;
 }
 
+.slogan {
+    text-align: center;
+}
 .copyright {
     text-align: center;
     font-family: "Open Sans", sans-serif;
