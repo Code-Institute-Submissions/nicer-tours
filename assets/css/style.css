@@ -17,7 +17,7 @@ p {
 }
 
 .banner-image-text {
-    background-color: transparent;;
+    background-color: rgba(0,0,0,0.15);
     padding-top: 0px;
     position: absolute;
     bottom: 0;
@@ -28,9 +28,47 @@ p {
 
 .company-name {
     color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.company-name span {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.align-bottom {
+    padding: 8px;
 }
 
 .navigation {
     text-align: right;
     color: white;
+}
+
+.navbar {
+    display: inline-block;
+    padding: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+#nice {
+    color: white;
+}
+
+#monaco {
+    color:white;
+}
+
+#st-p {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color:white;
+    margin-bottom: 8px;
 }
