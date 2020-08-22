@@ -78,3 +78,15 @@ p {
     color:white;
     margin-bottom: 8px;
 }
+
+/* ----------------------------------------- Footer */
+
+.footer-section {
+    background-color: rgba(0, 47, 167, 0.75);
+    color:white;
+}
+
+.copyright {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
