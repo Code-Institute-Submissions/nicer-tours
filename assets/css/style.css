@@ -10,11 +10,18 @@ p {
     font-family: "Open Sans", sans-serif;
 }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 8px;
+    border: 0;
+    border-top: 1px solid transparent;
+}
+
 /* ----------------------------------------- Banner image */
 
 .banner-image {
     background: url("../images/panorama-of-nice.jpg");
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -37,6 +44,12 @@ p {
     padding-right: 0px;
     padding-left: 0px;
 }
+
+/* When I first tried nested containers for the nav bar and company logo, I knew I wanted each on opposite sides of a full size screen. 
+This meant that I could not easily use an "off the shelf" Bootstrap NavBar in a container-fluid div.
+Upon testing using the code I had written - 2 divs within the container-fluid, positioned at the bottom of the banner 
+image - the company name "rose" as the (collapsed) NavBar expanded. Stack Overflow enabled me to resolve this, and keep the company
+name at the bottom of the div. See https://stackoverflow.com/questions/5288336/put-text-at-bottom-of-div */ 
 
 .company-name span {
     position: absolute;
@@ -91,8 +104,49 @@ p {
 
 .slogan {
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.company-location,
+.tours-offered {
+    font-weight: 100;
+}
+
+.company-location a,
+.icons a {
+    color: white;
+}
+
+.email-address {
+    padding-bottom: 10px;
+}
+
+.footer-navigation {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-media-icons {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 5px;
 }
 .copyright {
     text-align: center;
     font-family: "Open Sans", sans-serif;
+    padding-bottom: 15px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 992px) {
+    .company-location,
+    .tours-offered,
+    .social-media-icons {
+        text-align: center;
+    }
+
+    .company-location,
+    .tours-offered {
+        padding-bottom: 15px;
+    }
 }
