@@ -27,6 +27,22 @@ hr {
     min-height: 360px;
 }
 
+.banner-image-monaco-banner {
+    background: url("../images/panorama-of-monaco.jpg");
+    background-position: top;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.banner-image-st-paul-banner {
+    background: url("../images/panorama-of-st-paul-de-vence.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
 .banner-image-text {
     background-color: rgba(0,0,0,0.15);
     padding-top: 0px;
@@ -100,8 +116,8 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     background-color: rgba(0, 47, 167, 0.75);
     color:white;
     padding-top: 20px;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .slogan {
@@ -137,6 +153,7 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: 100;
 }
 
