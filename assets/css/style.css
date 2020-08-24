@@ -17,6 +17,11 @@ hr {
     border-top: 1px solid transparent;
 }
 
+.btn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+}
+
 /* ----------------------------------------- Banner image */
 
 .banner-image {
@@ -82,6 +87,7 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 .navigation {
     text-align: right;
     color: white;
+    padding-right: 0;
 }
 
 .navbar {
@@ -92,6 +98,7 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 .nav-link {
     color: white;
 }
+
 
 #nice {
     color: white;
@@ -108,6 +115,35 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 .navbar-toggler-icon {
     color:white;
     margin-bottom: 8px;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.nav-item:active {
+    background-color: rgba(0,47,167,0.75);
+}
+
+/* ----------------------------------------- Section tour pages */
+
+.tour-main-content {
+    padding: 15px;
+}
+
+.btn-light {
+    background-color: rgba(0,47,167,0.75);
+    border: 1px solid white;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* width: 48%; */
+}
+
+.btn-light:hover {
+    background-color: white;
+    border: 1px solid rgba(0,47,167,0.75);
+    color: rgba(0,47,167,0.75);
 }
 
 /* ----------------------------------------- Footer */
@@ -156,6 +192,20 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     margin-bottom: 20px;
     font-weight: 100;
 }
+
+/* ----------------------------------------- Modal */
+
+.contact-us-form-input {
+    width: 100%;
+}
+
+.contact-us-form-name,
+.contact-us-form-email,
+.contact-us-form-message {
+    margin-bottom: 15px;
+}
+
+/* ----------------------------------------- Screen size */
 
 @media screen and (max-width: 992px) {
     .company-location,

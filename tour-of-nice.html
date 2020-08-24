@@ -26,7 +26,6 @@
                                     <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarToggler-FontAwesomeBars">
-
                                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                                     <li class="nav-item active">
                                         <a id="nice" class="nav-link" href="tour-of-nice.html">Nice<span class="sr-only">(current)</span></a>
@@ -37,8 +36,7 @@
                                     <li class="nav-item">
                                         <a id="st-p" class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
                                     </li>
-                                    </ul>
-                                    
+                                    </ul>   
                                 </div>
                             </nav>
                         </div>
@@ -49,8 +47,85 @@
     </header>
 
     <section>
-        Nice
+        <div class="container-fluid tour-main-content tour-of-nice-main-content">
+            <div class="row justify-content-center">
+                <div class="col-sm-9">
+                    <div class="row">
+
+                        <div class="order-md-12 col-md-8 col-lg-8 tour-description tour-of-nice-description">
+                            <h2>Title</h2>
+                            <p>Description of city to be visited</p>
+                            <h3>Feature 1</h3>
+                            <p>Feauture 1</p>
+                            <h3>Feature 2</h3>
+                            <p>Feauture 2</p>
+                            <h3>Feature 3</h3>
+                            <p>Feauture 3</p>
+                            <h3>Feature 4</h3>
+                            <p>Feauture 4</p>
+                            <h3>Feature 5</h3>
+                            <p>Feauture 5</p>
+                        </div>
+
+                        <div class="order-md-1 col-md-4 col-lg-4 tour-times tour-of-nice-times-and-price">
+                            <h2>Times and availablitiy</h2>
+                            <h3>Price</h3>
+                            <p>Price</p>
+                            <h3>Departure time</h3>
+                            <p>Departure time</p>
+                            <h3>Days available</h3>
+                            <p>Days available</p>
+                            <h3>Duration</h3>
+                            <p>Duration</p>
+
+                            Dropdown with options all screen sizes:<br>
+                            <button type="button" class="btn btn-light btn-block btn-cta btn-cta-contact" data-toggle="modal" data-target="#contact-us">Contact Us!</button>
+                            <button type="button" class="btn btn-light btn-block btn-cta btn-cta-book-now">Book Now!</button>
+                                Need more info? Contact Us!<br>
+                                > Modal > Form<br>
+                                Ready to book? Choose your date!<br>
+                                > Modal > Calendar / Time / Number of People / Pick up & drop off location
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contact-usLabel">Contact us about the tour of Nice</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            <div class="modal-body">
+                <form class="contact-us-tour-of-nice-form" method="post" action="#">
+                    <div class="contact-us-form-name">
+                        <label for="name">Name:</label>
+                        <input class="contact-us-form-input" id="name" name="name" type="text" required>
+                    </div>
+                    <div class="contact-us-form-email"> 
+                        <label for="email">Email:</label>
+                        <input class="contact-us-form-input" id="email" name="email" type="email" required>
+                    </div>
+                    <div class="contact-us-form-message"> 
+                        <label for="message">What would you like to know?:</label>
+                        <textarea class="contact-us-form-input" id="message" name="message" type="text" rows="5" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light">Send your message</button>
+                
+            </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="container-fluid footer-section">
@@ -59,67 +134,65 @@
                     <div class="slogan">
                         <h4>The Nicest tours you'll find in Nice!</h4>
                     </div>
-
                     <div class="social-media-icons">
                             <ul class="list-inline icons">
-                        <li class="list-inline-item">
-                            <a href="https://fr-fr.facebook.com" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.tripadvisor.com" target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-                        </li>
-                        <!-- Open in WhatsApp link source code from https://www.bybrand.io/docs/en/article/add-whatsapp-call/ -->
-                        <li class="list-inline-item">
-                            <a href="https://api.whatsapp.com/send?phone=+33493555555" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        </li>
+                                <li class="list-inline-item">
+                                    <a href="https://fr-fr.facebook.com" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.tripadvisor.com" target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                                </li>
+                                <!-- Open in WhatsApp link source code from https://www.bybrand.io/docs/en/article/add-whatsapp-call/ -->
+                                <li class="list-inline-item">
+                                    <a href="https://api.whatsapp.com/send?phone=+33493555555" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                </li>
                             </ul>
                     </div>
-                    
-                    <div class="row">
+                    <div class="row footer-sections">
                         <div class="col-md-6 col-lg-6 company-location">
-                    <h5>Contact Us:</h5>
-                    <address>
-                        Nicer Tours<br>
-                        Rue de Nice<br>
-                        06000<br>
-                        NICE <br>
-                        FRANCE<br>
-                        <a href="mailto:nicertours@nicertours.com">nicertours@nicertours.com</a><br>
-                        <a href="tel:+33 4 93 55 55 55">(+33) 4 93 55 55 55</a>
-                    </address>
+                            <h5>Contact Us:</h5>
+                            <!-- I wanted a class beginning with "add" for something and found Emmet prompted me for <address>. 
+                            Went to w3schools (https://www.w3schools.com/tags/tag_address.asp) to find out more and include properly. -->
+                            <address>
+                                Nicer Tours<br>
+                                Rue de Nice<br>
+                                06000<br>
+                                NICE <br>
+                                FRANCE<br>
+                                <a href="mailto:nicertours@nicertours.com">nicertours@nicertours.com</a><br>
+                                <a href="tel:+33 4 93 55 55 55">(+33) 4 93 55 55 55</a>
+                            </address>
                         </div>
-
                         <div class="col-md-6 col-lg-6 tours-offered">
-                    <h5>Our Tours:</h5>
-                        
-                    <ul class="footer-navigation">
-                        <li class="footer-nav-item">
-                            <a id="nice" class="footer-nav-link" href="tour-of-nice.html">Nice</a>
-                        </li>
-                        <li class="footer-nav-item">
-                            <a id="monaco" class="footer-nav-link" href="tour-of-monaco.html">Monaco</a>
-                        </li>
-                        <li class="footer-nav-item">
-                            <a id="st-p" class="footer-nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
-                        </li>
-                    </ul>
-                    
-                    <hr>
-                    <p>We also offer "made to measure" private tours. Contact us for more details.</p>
+                            <h5>Our Tours:</h5>
+                                <ul class="footer-navigation">
+                                    <li class="footer-nav-item">
+                                        <a id="nice" class="footer-nav-link" href="tour-of-nice.html">Nice</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a id="monaco" class="footer-nav-link" href="tour-of-monaco.html">Monaco</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a id="st-p" class="footer-nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                                    </li>
+                                </ul>
+                            <hr>
+                            <p>We also offer "made to measure" private tours. Contact us for more details.</p>
                         </div>
                     </div>
-
                     <div class="copyright">Copyright 2020 Justin Sawyer</div>
                 </div>
             </div>
         </div>
     </footer>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
