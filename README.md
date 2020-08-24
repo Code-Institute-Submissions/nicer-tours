@@ -35,7 +35,7 @@ GG for the constant presence and encouragement. You are a pearl!
 
 ## Credits (technologies, scripts)
 
-Bootstrap for the Navbar and banner-image code. 
+Bootstrap for the Navbar, banner-image and modal code. 
 I used a nested container set up - the image is the first, and contains two further containers: 
 One on the left for the "company name" and one on the right for the navigation.
 
