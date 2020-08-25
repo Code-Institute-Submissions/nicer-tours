@@ -100,15 +100,9 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 }
 
 
-#nice {
-    color: white;
-}
-
-#monaco {
-    color:white;
-}
-
-#st-p {
+#nice, #nice-footer,
+#monaco, #monaco-footer,
+#st-p, #st-p-footer {
     color: white;
 }
 
@@ -193,16 +187,33 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     font-weight: 100;
 }
 
-/* ----------------------------------------- Modal */
-
-.contact-us-form-input {
-    width: 100%;
-}
+/* ----------------------------------------- Contact Us Modal */
 
 .contact-us-form-name,
 .contact-us-form-email,
 .contact-us-form-message {
+    width: 100%;
     margin-bottom: 15px;
+}
+
+/* ----------------------------------------- Book Now Modal */
+
+.book-now-form-name,
+.book-now-form-email,
+.book-now-form-tel {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.book-now-form-date {
+    width: auto;
+}
+
+.tour-option p {
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 /* ----------------------------------------- Screen size */

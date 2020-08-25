@@ -14,15 +14,17 @@ JavaScript
 
 Git
 
-GitHub
+[GitHub](https://www.gitpod.io/)
 
-GitPod
+[GitPod](https://www.gitpod.io/)
 
-Bootstrap
+[Bootstrap](https://getbootstrap.com/)
 
-Google Fonts
+[Google Fonts](https://fonts.google.com/)
 
-Font Awesome
+[Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
+
+The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) code verification tools
 
 ## Credits (general)
 
@@ -35,9 +37,12 @@ GG for the constant presence and encouragement. You are a pearl!
 
 ## Credits (technologies, scripts)
 
-Bootstrap for the Navbar, banner-image and modal code. 
+Bootstrap for the Navbar, banner-image and some of the modal code. W3schools.com for instruction on form input types. 
+The [Rosie Odenkirk resumé project](https://justin-sawyer.github.io/ucd-resume/index.html) which I completed for Code Institue.
 I used a nested container set up - the image is the first, and contains two further containers: 
 One on the left for the "company name" and one on the right for the navigation.
+
+Note on NavBar: 
 
 As bootstrap NavBars conform to a format, that of image / nav links grouped on a certain side of the screen, 
 I decided that using this nested set up was better for what I was trying to achieve.
@@ -58,4 +63,18 @@ You can confirm this by email: welcome@sunnydays.fr
 
 ## Future plans
 
-Change the scroll direction of the banner image on the Home page so that the city of Nice and its beach is visible on smaller devices.
+Create a dump page for the modals.
+
+Add t&cs to scrolling popover using popper.js script.
+
+## Cloning & deploying
+
+You can clone and deploy this in your GitHub Desktop application by following these steps:
+
+Navigate to this repository
+
+Click the green "Code" button
+
+Click "Open with GitHub Desktop"
+
+Follow the prompts in the GitHub Desktop application.
