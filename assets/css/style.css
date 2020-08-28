@@ -119,10 +119,96 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     background-color: rgba(0,47,167,0.75);
 }
 
+/* ----------------------------------------- Section main page */
+
+.main-content,
+.why-nicer-tours,
+.tour-options {
+    padding-top: 20px;
+}
+
+.tour-options {
+    padding-bottom: 20px;
+}
+
+.why-nicer-tours h3,
+.tour-options h3 {
+    padding-bottom: 16px;
+}
+
+.main-slogan,
+.why-nicer-tours,
+.tour-options,
+.reviews {
+    text-align: center;
+}
+
+.unequalled-passion,
+.unrivalled-quality {
+    padding-top: 10px;
+}
+
+.unequalled-passion-text,
+.unrivalled-quality-text,
+.guaranteed-departure-text,
+.flexibility-text,
+.guaranteed-departure-option-expanded,
+.flexibility-option-expanded {
+    text-align: justify;
+}
+
+.guaranteed-departure-option-expanded,
+.flexibility-option-expanded {
+    border: 1px solid rgba(0,47,167,0.75);
+}
+
+.btn-guaranteed-departure,
+.btn-guaranteed-departure-modal,
+.btn-flexibility,
+.btn-flexibility-modal {
+    width: 100%;
+}
+
+/* ----------------------------------------- Reviews */
+
+/*I tried for days to get the image, from the cs of the Love Running project. It just never looked right, so I used the following from
+https://medium.com/@biancapower/how-to-make-a-rectangle-image-a-circle-in-css-2f392bc9abd3 */
+.photo-column-left {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 15px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo-column-right {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 15px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -160%;
+  margin-top: -150px; //centers the image
+  height: 100%;
+  width: auto;
+}
+/*
+.text-column-right {
+    position: absolute;
+    right: 0;
+}
+*/
 /* ----------------------------------------- Section tour pages */
 
 .tour-main-content {
-    padding: 15px;
+    padding: 20px;
 }
 
 .btn-light {
@@ -216,6 +302,12 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     margin-bottom: 0;
 }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
 /* ----------------------------------------- Screen size */
 
 @media screen and (max-width: 992px) {
@@ -229,4 +321,19 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     .tours-offered {
         padding-bottom: 15px;
     }
+}
+
+/* T&C */
+
+.card {
+    border: 0;
+}
+
+.img-thumbnail {
+    border: 0;
+    border-radius: 50%;
+}
+
+.review-block {
+    padding: 15px;
 }

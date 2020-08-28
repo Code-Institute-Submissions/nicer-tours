@@ -37,7 +37,8 @@ GG for the constant presence and encouragement. You are a pearl!
 
 ## Credits (technologies, scripts)
 
-Bootstrap for the Navbar, banner-image and the majority of the modal code. W3schools.com for instruction on form input types. 
+Bootstrap for the Navbar, banner-image containers, other containers and the majority of the modal code. 
+W3schools.com for instruction on form input types. 
 The [Rosie Odenkirk resumé project](https://justin-sawyer.github.io/ucd-resume/index.html) which I completed for Code Institue.
 
 Note on NavBar: 
@@ -64,7 +65,7 @@ Unless otherwise stated, all images are my own. Some may appear on [this website
 The website owners are my former employers, and used my photos for their website.
 You can confirm this by email: welcome@sunnydays.fr 
 
-## Influences and choice of colours
+## Influences, choice of colours & typography
 
 This project is inspired by my former employment as a tour guide in the city of Nice, France.
 
@@ -73,13 +74,19 @@ It is the [Yves Klein International Blue](https://en.wikipedia.org/wiki/Internat
 Although many believe that Klein copyrighted this colour, he in atual fact only registered it in a Soleau envelope, 
 and thus has no exclusive rights over the use of this colour.
 
+The Poiret One font was chosen as it reflects the period from which the city of Nice gained its modern prestige.
+It is a font that recalls the Belle Epoque period, from the early 20th Century, at time when Nice became famous not just with Europeans
+but also with the "nouveau riche" of the United States. A font that reminds of artistry, and is perfectly suited here as Nice is a city 
+with a huge influence in the world of Modern Art. 
+Its use on this site is designed to evoke this 1920s, 1930s period and the artistry that accompanied it.
+
 ## Future plans
 
 Get :pseudos to function as they should.
 
 Create a dump page for the modals.
 
-Add t&cs to scrolling popover using popper.js script instead of their own .html page.
+Add terms & conditions to scrolling popover using popper.js script instead of their own .html page.
 
 ## Cloning & deploying
 
