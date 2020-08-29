@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid header-section">
+            <div class="row">
+                <div class="col-sm-12 banner-image home-and-nice-banner">
+                    <div class="row banner-image-text">
+                        <div class="col-6 col-lg-4 company-name">
+                            <!-- See CSS file ".company-name span" for credit for company name staying at the bottom while neighbouring navigation div expands -->
+                            <a href="index.html"><span class="align-bottom">Nicer Tours</span></a>
+                        </div>
+                        <div class="col-6 col-lg-8 navigation">
+                            <nav class="navbar navbar-expand-lg">
+                                <!-- suggestion for Font Awesome Bar as toggler comes from Stack Overflow: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color-->
+                                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler-FontAwesomeBars" aria-controls="navbarToggler-FontAwesomeBars" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarToggler-FontAwesomeBars">
+
+                                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item">
+                                        <a id="nice" class="nav-link" href="tour-of-nice.html">Nice</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="monaco" class="nav-link" href="tour-of-monaco.html">Monaco</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="st-p" class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                                    </li>
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container book-now-container">
+            <div class="row justify-content-center">
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="order-1 order-md-12 col-md-8 col-lg-8 book-now book-now-description">
+                            <form>
+                                <input class="book-now-form-name" type="text" name="book-now-name" id="book-now-name" placeholder="Name" required />
+                                <input class="book-now-form-email" type="email" name="book-now-email" id="book-now-email" placeholder="Email" required />
+                                <!-- From w3schools.com-->
+                                <input class="book-now-form-tel" type="tel" name="tel" id="tel" placeholder="Phone incl. Country Code / WhatsApp" required />
+                                <div class="date-and-number-of-pax">
+                                    <label for="date">Tour date:</label>
+                                    <input class="book-now-form-date" type="date" name="date" id="date" required />
+                                    <label for="quantity">No. of passengers:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="8">
+                                </div>
+                                <div class="tour-option">
+                                    <p>Tour Option:</p>
+                                    <label for="guaranteed-departure">Guaranteed Departure</label>
+                                    <input type="radio" id="guaranteed-departure" name="option" value="guaranteed-departure" checked >
+                                    <label for="flexibility">Flexibility</label>
+                                    <input type="radio" id="flexibility" name="option" value="flexibility">
+                                    <label for="t-and-c"> I accept Nicer Tours <a href="terms-and-conditions.html">Terms and conditions</a></label>
+                                    <input type="checkbox" id="t-and-c" name="t-and-c" value="onfirm-t-and-c" required>   
+                                </div>
+                                <!-- End of from w3schools.com -->
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-light">Proceed To Payment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="order-12 order-md-1 col-md-4 col-lg-4 tour-times tour-of-monaco-times-and-price">
+                                    <h2>Times and availablitiy:</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid footer-section">
+            <div class="row justify-content-center">
+                <div class="col-sm-9">
+                    <div class="slogan">
+                        <h4>The Nicest tours you'll find in Nice!</h4>
+                    </div>
+                    <div class="social-media-icons">
+                            <ul class="list-inline icons">
+                                <li class="list-inline-item">
+                                    <a href="https://fr-fr.facebook.com" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.tripadvisor.com" target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                                </li>
+                                <!-- Open in WhatsApp link source code from https://www.bybrand.io/docs/en/article/add-whatsapp-call/ -->
+                                <li class="list-inline-item">
+                                    <a href="https://api.whatsapp.com/send?phone=+33493555555" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="row footer-sections">
+                        <div class="col-md-6 col-lg-6 company-location">
+                            <h5>Contact Us:</h5>
+                            <!-- I wanted a class beginning with "add" for something and found Emmet prompted me for <address>. 
+                            Went to w3schools (https://www.w3schools.com/tags/tag_address.asp) to find out more and include properly. -->
+                            <address>
+                                Nicer Tours<br>
+                                Rue de Nice<br>
+                                06000<br>
+                                NICE <br>
+                                FRANCE<br>
+                                <a href="mailto:nicertours@nicertours.com">nicertours@nicertours.com</a><br>
+                                <a href="tel:+33493555555">(+33) 4 93 55 55 55</a>
+                            </address>
+                        </div>
+                        <div class="col-md-6 col-lg-6 tours-offered">
+                            <h5>Our Tours:</h5>
+                                <ul class="footer-navigation">
+                                    <li class="footer-nav-item">
+                                        <a id="nice-footer" class="footer-nav-link" href="tour-of-nice.html">Nice</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a id="monaco-footer" class="footer-nav-link" href="tour-of-monaco.html">Monaco</a>
+                                    </li>
+                                    <li class="footer-nav-item">
+                                        <a id="st-p-footer" class="footer-nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                                    </li>
+                                </ul>
+                            <hr>
+                            <p>We also offer "made to measure" private tours. Contact us for more details.</p>
+                        </div>
+                    </div>
+                    <div class="copyright">Copyright 2020 Justin Sawyer</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

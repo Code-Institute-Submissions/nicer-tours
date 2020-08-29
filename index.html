@@ -60,7 +60,7 @@
                             <h4>Because of our Tour Options:</h4>
                         </div>
                         <div class="row why-us">
-                                <div class="col-md-6 guaranteed-departure">
+                                <div class="col-md-6" id="guaranteed-departure">
                                     <h4>Guaranteed Departure Option:</h4>
                                     <div class="guaranteed-departure-text">
                                         <p>Ideal for those with little flexibility in their dates or those visiting the area outside of the high season. </p>
@@ -69,7 +69,7 @@
                                         <button type="button" class="btn btn-light d-md-none btn-guaranteed-departure-modal" data-toggle="modal" data-target="#guaranteed-departureModal">How It Works</button> 
                                     </div>
                                 </div>
-                                <div class="col-md-6 flexibility">
+                                <div class="col-md-6" id="flexibility">
                                     <h4>Flexibility Option:</h4>
                                     <div class="flexibility-text">
                                         <p>Ideal for those who visit during the high season or for those who have flexibility in their travel dates.</p>
@@ -80,33 +80,20 @@
                                 </div>
                                 <div class="collapse" id="how-guaranteed-departure-works">
                                     <div class="card card-body d-none d-md-block guaranteed-departure-option-expanded">
-                                        <p>Since selling at a loss is illegal in France, Nicer Tours must operate at a profit, as must all businesses.</p>
-                                        <p>However, perhaps on the day you book your tour, you are the only customers. 
-                                        Individuals and couples generally run the task of having their tour cancelled in this case, 
-                                        since most tours have a break even point of 4 customers. 
-                                        Or worse - maybe the customer will be offered an alternative tour or a similar tour 
-                                        operated by another company, one of whom Nicer Tours cannot guarantee the quality.</p>
-                                        <p>Avoid these possibilities by opting for the Guaranteed Departure Option.</p>
-                                        <p>The Guaranteed Departure Option by charging you the customer what is the break even point 
-                                        for the tour in question. So, for example, if you are 3 and the break even point is 4, 
-                                        you’ll be charged for 4 people, but have the luxury of having a more personal tour… 
-                                        without the crush of a full minibus.</p>
-                                        <p>Since we only debit you for the Flexibility Option pice when you reserve this option, 
-                                        and any eventual balance once your tour is underway, you know exactly what you pay on the day of your tour. 
-                                        Indeed, you’ll be asked to confirm the number of passengers and thus the price you pay via an 
-                                        app as your tour is underway. So, should your tour meet the break even point, you won’t face extra charges.</p>
+                                        <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
+                                        <p>Your tour is guaranteed never to be cancelled, because if, on the reserved tour date, the tour does not reach the break-even 
+                                        point, you accept paying the difference. 
+                                        If the tour has reached the break-even point for its operation, you pay no surcharge.*</p> 
+                                        <p>On the day of your tour, you will confirm the number of passengers in total on your tour, agreed with your guide, via an app. Nicer Tours then debit you the difference.</p>
+                                        <p style="text-align:right;"><small>*Generally, the break-even point is 4 passengers per tour.</small></p>
                                     </div>
                                 </div>
                                 <div class="collapse" id="how-flexibility-works">
                                     <div class="card card-body d-none d-md-block flexibility-option-expanded">
                                         <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
-                                        <p>However, if the tour reserved is not fully booked on the day of your reservation you accept 
-                                        the risk that yourtour date changes, is cancelled or be asked to either join another tour or 
-                                        have your tour operated by another company.</p>
-                                        <p>Note that Nicer Tours have many partners, however, we cannot guarantee the quality of our partners’ tours.</p>
-                                        <p>When you book this option, you also accept that refunds are not possible if you decide that 
-                                        you are no longer able to accept these conditions. Of course, if for any reason 
-                                        Nicer Tours themselves cancel your tour (through force major, for example) you will be fully refunded.</p>
+                                        <p>However, if the tour reserved is not fully booked on the day of your reservation you accept the risk that your tour date changes or is cancelled. 
+                                        Alternatively, you may be asked to either join another tour or have your tour operated by another company*.</p>
+                                        <p style="text-align:right;"><small>*Note that Nicer Tours have many partners, however, we cannot guarantee the quality of our partners’ tours.</small></p>
                                     </div>
                                 </div>
                         </div>
@@ -115,94 +102,111 @@
                         <h4>Because of what they say:</h4>
                     </div>
                     
-                    <!--  Reviews Full size Cards from Bootstrap -->
+                    <!--  Reviews Full Size (Cards code from Bootstrap) -->
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 col-lg-6 d-none d-lg-block review-block" id="first-review-block">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Gretchen Gamongan:</h5>
-                                                <p class="card-text">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                                <p class="card-text d-lg-none d-xl-block">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img src="assets/images/gretchen-2.jpg" alt="first-reviewer-photo" class="img-thumbnail">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 d-none d-lg-block review-block" id="second-review-block">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img src="assets/images/gretchen-2.jpg" alt="first-reviewer-photo" class="img-thumbnail">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Gretchen Gamongan:</h5>
-                                                <p class="card-text">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                                <p class="card-text d-lg-none d-xl-block">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                            </div>
-                                        </div>
-                                    </div>                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end of full size -->
-                    <!-- Reviews carousel for mobile and small tablets. 
-                    Code from Boostrap, but "is it possible and how to do it" comes from https://www.youtube.com/watch?v=WBcCvNASbuc-->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 d-lg-none">
-                                <div id="reviews-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="col-md-12 d-none d-md-block review-block" id="first-review-block">
+                                <div id="reviews-full-size-carousel" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <div class="row">
-                                                <div class="col-6">
-                                                    <div class="card">
-                                                        <div class="card-body">
-                                                            <img src="assets/images/gretchen-2.jpg" alt="first-reviewer-photo" class="img-thumbnail">
-                                                        </div>
+                                                <div class="card col-md-6">
+                                                    <div class="card-body">
+                                                        <img src="assets/images/gretchen.jpg" alt="first-reviewer-photo" class="img-thumbnail first-reviewer-photo-carousel">
+                                                        <h5 class="card-title">Gretchen Gamongan:</h5>
+                                                        <p class="card-text">"I took this tour with my husband, and had a really wonderful day!"</p>
+                                                        <p class="card-text">"So glad we chose the Guaranteed Departure option as we visited out of season. As it turned out, we were the only ones on the tour because of this... it was like having our own personalised tour!"</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-6">
-                                                    <div class="card">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Gretchen Gamongan:</h5>
-                                                            <p class="card-text">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                                            <p class="card-text d-none d-sm-block">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                                        </div>
+                                                <div class="card col-md-6">
+                                                    <div class="card-body">
+                                                        <img src="assets/images/fenella.jpg" alt="second-reviewer-photo" class="img-thumbnail second-reviewer-photo-carousel">
+                                                        <h5 class="card-title right-review-name">Fenella Harris:</h5>
+                                                        <p class="card-text right-review-text">"Our little family loved out full day tour of Monaco."</p>
+                                                        <p class="card-text right-review-text">"We're so glad we chose <em>Nicer Tours</em> as they offer such a professional service."</p>
+                                                        <p class="card-text right-review-text">"Fully recommended!"</p>
                                                     </div>
-                                                </div>    
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="carousel-item">
                                             <div class="row">
-                                                <div class="col-6">
+                                                <div class="card col-md-6">
+                                                    <div class="card-body">
+                                                        <img src="assets/images/yves.jpg" alt="third-reviewer-photo" class="img-thumbnail third-reviewer-photo-carousel">
+                                                        <h5 class="card-title">Yves Bertillon:</h5>
+                                                        <p class="card-text">"Merveilleux!!"</p>
+                                                        <p class="card-text">"Super heureux que nous avons pris le tour de St.-Paul-de-Vence avec <em>Nicer Tours</em>. Quel endroit, quel guide, quel tour!"</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card col-md-6">
+                                                    <div class="card-body">
+                                                        <img src="assets/images/antonio.jpg" alt="fourth-reviewer-photo" class="img-thumbnail fourth-reviewer-photo-carousel">
+                                                        <h5 class="card-title right-review-name">Antonio Santiago:</h5>
+                                                        <p class="card-text right-review-text">"Gran día con <em>Nicer Tours</em>."</p>
+                                                        <p class="card-text right-review-text">"Volveremos el año que viene para otra gira. ¡Nos vemos allí, tal vez!"</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of full size -->
+
+                        <!-- Reviews carousel for mobile and small tablets. 
+                        Code from Boostrap, but "is it possible and how to do it" comes from https://www.youtube.com/watch?v=WBcCvNASbuc-->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-md-none">
+                                    <div id="reviews-mobile-size-carousel" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row">
                                                     <div class="card">
                                                         <div class="card-body">
+                                                            <img src="assets/images/gretchen.jpg" alt="first-reviewer-photo" class="img-thumbnail first-reviewer-photo-carousel">
                                                             <h5 class="card-title">Gretchen Gamongan:</h5>
                                                             <p class="card-text">"I took this tour with my husband, and had a really wonderful day!"</p>
-                                                            <p class="card-text d-none d-sm-block">"I took this tour with my husband, and had a really wonderful day!"</p>
+                                                            <p class="card-text">"So glad we chose the Guaranteed Departure option as we visited out of season. As it turned out, we were the only ones on the tour because of this... it was like having our own personalised tour!"</p>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <img src="assets/images/fenella.jpg" alt="second-reviewer-photo" class="img-thumbnail second-reviewer-photo-carousel">
+                                                            <h5 class="card-title right-review-name">Fenella Harris:</h5>
+                                                            <p class="card-text right-review-text">"Our little family loved out full day tour of Monaco."</p>
+                                                            <p class="card-text right-review-text">"We're so glad we chose <em>Nicer Tours</em> as they offer such a professional service."</p>
+                                                            <p class="card-text right-review-text">"Fully recommended!"</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
                                                     <div class="card">
                                                         <div class="card-body">
-                                                            <img src="assets/images/gretchen-2.jpg" alt="first-reviewer-photo" class="img-thumbnail">
+                                                            <img src="assets/images/yves.jpg" alt="third-reviewer-photo" class="img-thumbnail third-reviewer-photo-carousel">
+                                                            <h5 class="card-title">Yves Bertillon:</h5>
+                                                            <p class="card-text">"Merveilleux!!"</p>
+                                                            <p class="card-text">"Super heureux que nous avons pris le tour de St.-Paul-de-Vence avec <em>Nicer Tours</em>. Quel endroit, quel guide, quel tour!"</p>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <img src="assets/images/antonio.jpg" alt="fourth-reviewer-photo" class="img-thumbnail fourth-reviewer-photo-carousel">
+                                                            <h5 class="card-title right-review-name">Antonio Santiago:</h5>
+                                                            <p class="card-text right-review-text">"Gran día con <em>Nicer Tours</em>."</p>
+                                                            <p class="card-text right-review-text">"Volveremos el año que viene para otra gira. ¡Nos vemos allí, tal vez!"</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -215,10 +219,10 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
 
-    <!-- Modal Guaranteed Departure -->
+    <!-- Modal Guaranteed Departure (Code from Bootstrap) -->
     <div class="modal fade" id="guaranteed-departureModal" tabindex="-1" role="dialog" aria-labelledby="guaranteed-departure-Label" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -229,21 +233,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Since selling at a loss is illegal in France, Nicer Tours must operate at a profit, as must all businesses.</p>
-                    <p>However, perhaps on the day you book your tour, you are the only customers. 
-                    Individuals and couples generally run the task of having their tour cancelled in this case, 
-                    since most tours have a break even point of 4 customers. 
-                    Or worse - maybe the customer will be offered an alternative tour or a similar tour 
-                    operated by another company, one of whom Nicer Tours cannot guarantee the quality.</p>
-                    <p>Avoid these possibilities by opting for the Guaranteed Departure Option.</p>
-                    <p>The Guaranteed Departure Option by charging you the customer what is the break even point 
-                    for the tour in question. So, for example, if you are 3 and the break even point is 4, 
-                    you’ll be charged for 4 people, but have the luxury of having a more personal tour… 
-                    without the crush of a full minibus.</p>
-                    <p>Since we only debit you for the Flexibility Option pice when you reserve this option, 
-                    and any eventual balance once your tour is underway, you know exactly what you pay on the day of your tour. 
-                    Indeed, you’ll be asked to confirm the number of passengers and thus the price you pay via an 
-                    app as your tour is underway. So, should your tour meet the break even point, you won’t face extra charges.</p>                       
+                    <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
+                    <p>Your tour is guaranteed never to be cancelled, because if, on the reserved tour date, the tour does not reach the break-even 
+                    point, you accept paying the difference. 
+                    If the tour has reached the break-even point for its operation, you pay no surcharge.*</p> 
+                    <p>On the day of your tour, you will confirm the number of passengers in total on your tour, agreed with your guide, via an app. Nicer Tours then debit you the difference.</p>
+                    <p style="text-align:right;"><small>*Generally, the break-even point is 4 passengers per tour.</small></p>                       
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
@@ -263,13 +258,9 @@
                 </div>
                 <div class="modal-body">
                     <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
-                    <p>However, if the tour reserved is not fully booked on the day of your reservation you accept 
-                    the risk that yourtour date changes, is cancelled or be asked to either join another tour or 
-                    have your tour operated by another company.</p>
-                    <p>Note that Nicer Tours have many partners, however, we cannot guarantee the quality of our partners’ tours.</p>
-                    <p>When you book this option, you also accept that refunds are not possible if you decide that 
-                    you are no longer able to accept these conditions. Of course, if for any reason 
-                    Nicer Tours themselves cancel your tour (through force major, for example) you will be fully refunded.</p>                       
+                    <p>However, if the tour reserved is not fully booked on the day of your reservation you accept the risk that your tour date changes or is cancelled. 
+                    Alternatively, you may be asked to either join another tour or have your tour operated by another company*.</p>
+                    <p style="text-align:right;"><small>*Note that Nicer Tours have many partners, however, we cannot guarantee the quality of our partners’ tours.</small></p>                       
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
