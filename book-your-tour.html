@@ -54,15 +54,28 @@
                 <div class="col-sm-9">
                     <div class="row">
                         <div class="col-md-4 col-lg-4 tour-times tour-of-monaco-times-and-price">
-                                    <h2>Times and availablitiy:</h2>
+                            <!--Back button from w3schools.com  https://www.w3schools.com/jsref/met_his_back.asp -->
+                                <button type="button" class="btn btn-light btn-block btn-back" onclick="goBack()">Back</button>
+                                    <br>
+                                    <p>The whole team here at Nicer Tours wishes you a great tour, and a fabulous vacation!</p>
+                                    <p>Before booking your tour, please make sure you have read our Terms and Conditions.</p>
+                                <button type="button" class="btn btn-light d-block btn-t-and-c-modal" data-toggle="modal" data-target="#t-and-cModal">Terms & Conditions</button>
                         </div>
                         <div class="col-md-8 col-lg-8 book-now book-now-description">
+                            <h2>Book Your Tour:</h2>
                             <form>
                                 <input class="book-now-form-name" type="text" name="book-now-name" id="book-now-name" placeholder="Name" required />
                                 <input class="book-now-form-email" type="email" name="book-now-email" id="book-now-email" placeholder="Email" required />
-                                <!-- From w3schools.com-->
+                                <!-- From w3schools.com https://www.w3schools.com/tags/att_select_required.asp -->
                                 <input class="book-now-form-tel" type="tel" name="tel" id="tel" placeholder="Phone incl. Country Code / WhatsApp" required />
-                                <div class="date-and-number-of-pax">
+                                <div class="tour-tour-date-and-number-of-pax">
+                                    <label for="tour">Choose your tour:</label>
+                                    <select name="tour" id="tour" required>
+                                        <option value="nice">Nice</option>
+                                        <option value="monaco">Monaco</option>
+                                        <option value="st-paul">St.-Paul-de-Vence</option>
+                                    </select>
+                                    <br>
                                     <label for="date">Tour date:</label>
                                     <input class="book-now-form-date" type="date" name="date" id="date" required />
                                     <label for="quantity">No. of passengers:</label>
@@ -72,15 +85,15 @@
                                     <p>Tour Option:</p>
                                     <label for="guaranteed-departure">Guaranteed Departure</label>
                                     <input type="radio" id="guaranteed-departure" name="option" value="guaranteed-departure" checked >
-                                    <label for="flexibility">Flexibility</label>
+                                    <label for="flexibility">Flexible Departure</label>
                                     <input type="radio" id="flexibility" name="option" value="flexibility">
-                                    <label for="t-and-c"> I accept Nicer Tours <a href="terms-and-conditions.html">Terms and conditions</a></label>
+                                    <label for="t-and-c"> I accept Nicer Tours <a href="terms-and-conditions.html" data-toggle="modal" data-target="#t-and-cModal">Terms & Conditions</a></label>
                                     <input type="checkbox" id="t-and-c" name="t-and-c" value="onfirm-t-and-c" required>   
                                 </div>
                                 <!-- End of from w3schools.com -->
                                 <div class="form-row text-center">
                                     <div class="col">
-                                        <button type="submit" class="btn btn-light">Proceed To Payment</button>
+                                        <button type="submit" class="btn btn-light btn-go-to-payment">Proceed To Payment</button>
                                     </div>
                                 </div>
                             </form>
@@ -90,6 +103,29 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal Terms & Conditions (Code from Bootstrap) -->
+    <div class="modal fade" id="t-and-cModal" tabindex="-1" role="dialog" aria-labelledby="t-and-c-Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="t-and-c-Label">Terms and Conditions:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>These are Nicer Tour's terms and conditions.</p>
+                    <p>There will surely be something in them that needs an asterisk.*</p> 
+                    <p>Evenutally, I'll put the Accept T&C checkbox from the form here, and only allow the form to trigger once this has been checked. But at the moment, I don't know how to do that.</p>
+                    <p style="text-align:right;"><small>*Like this!.</small></p>                       
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="container-fluid footer-section">
@@ -155,6 +191,13 @@
             </div>
         </div>
     </footer>
+
+    <!--Back button from w3schools.com  https://www.w3schools.com/jsref/met_his_back.asp -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

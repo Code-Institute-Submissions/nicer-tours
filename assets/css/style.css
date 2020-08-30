@@ -121,7 +121,7 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 /* ----------------------------------------- Section main page */
 
 .main-content {
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .tour-destinations,
@@ -141,6 +141,8 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 .tour-destinations,
 .tour-reviews {
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*.unequalled-passion,
@@ -177,6 +179,11 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 
 .card {
     border: 0;
+}
+
+.card-body {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .card-body-full-size {
@@ -334,6 +341,23 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     display:block;
 }
 
+/* ----------------------------------------- Book now */
+
+.book-now-container {
+    padding: 20px;
+}
+
+.btn-go-to-payment,
+.btn-t-and-c-modal,
+.btn-back {
+    width: 100%;
+    margin: 0;
+}
+
+.btn-t-and-c-modal {
+    margin-bottom: 20px;
+}
+
 /* ----------------------------------------- Screen size */
 
 @media screen and (max-width: 992px) {
@@ -349,10 +373,4 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     }
 }
 
-.tour-slideshow {
-    padding-top: 20px;
-}
 
-.tour-slideshow .card-body {
-    padding: 0;
-}
