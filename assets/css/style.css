@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poiret+One&display=swap');
 
-
 /* ----------------------------------------- General */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Poiret One", sans-serif;
@@ -121,18 +120,15 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 
 /* ----------------------------------------- Section main page */
 
-.main-content,
-.why-nicer-tours {
+.main-content {
     padding-top: 20px;
 }
 
-.tour-options {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.why-us {
-    padding-bottom: 20px;
+.tour-destinations,
+.tour-options,
+.tour-reviews {
+    padding-top: 0;
+    padding-bottom: 15px;
 }
 
 #guaranteed-departure,
@@ -140,29 +136,20 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     text-align: center;
 }
 
-.tour-options h3 {
-    margin-bottom: 0;
-}
-
-.why-nicer-tours h3,
-.tour-options h3 {
-    padding-bottom: 16px;
-}
-
 .main-slogan,
-.why-nicer-tours,
 .tour-options,
-.reviews {
+.tour-destinations,
+.tour-reviews {
     text-align: center;
 }
 
-.unequalled-passion,
+/*.unequalled-passion,
 .unrivalled-quality {
     padding-top: 10px;
 }
 
 .unequalled-passion-text,
-.unrivalled-quality-text,
+.unrivalled-quality-text,*/
 .guaranteed-departure-text,
 .flexibility-text,
 .guaranteed-departure-option-expanded,
@@ -204,6 +191,7 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 .review-block {
     padding: 15px;
 }
+
 
 .right-review-name,
 .right-review-text {
@@ -359,4 +347,12 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     .tours-offered {
         padding-bottom: 15px;
     }
+}
+
+.tour-slideshow {
+    padding-top: 20px;
+}
+
+.tour-slideshow .card-body {
+    padding: 0;
 }
