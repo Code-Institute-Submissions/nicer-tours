@@ -58,7 +58,6 @@ hr {
 }
 
 .company-name {
-    color: white;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 0px;
@@ -73,12 +72,15 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 
 .company-name span {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     color: white;
 }
 
 .align-bottom {
-    padding: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
 }
 
 /* ----------------------------------------- Navigation */
@@ -89,19 +91,37 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     padding-right: 0;
 }
 
-.navbar {
+/* From https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/ */
+.navbar-personalised {
     display: inline-block;
     padding: 0;
 }
 
-.nav-link {
+.company-name-active span,
+.navbar-personalised .navbar-nav > .active > a,
+.navbar-personalised .navbar-nav > .active > a:hover,
+.navbar-personalised .navbar-nav > .active > a:focus {
+color: white;
+background-color: rgba(0,47,167,0.75);
+}
+/*end of from https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/ */
+
+.nav-item > a {
     color: white;
 }
 
+.company-name span:hover,
+.nav-item > a:hover {
+    color: rgba(0,47,167,0.75);
+    background-color: rgba(255,255,255,0.5);
+}
 
-#nice, #nice-footer,
-#monaco, #monaco-footer,
-#st-p, #st-p-footer {
+.navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.footer-nav-item > a {
     color: white;
 }
 
@@ -110,15 +130,34 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     margin-bottom: 8px;
 }
 
-.nav-item {
-    padding-right: 15px;
+/* Using font-awesome icon for "burger" means that there is an ugly yellow border around the icon when tapped.
+I know it's there for accessibility reasons, but it doesn't fit the icon. I tried for a day to resize the burger icon to fit nicely,
+but didn't succeed. So I cheated by eliminating the yellow border. Code from Stack Overflow:
+https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4 */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
-.nav-item:active {
-    background-color: rgba(0,47,167,0.75);
+.fa-bars {
+    border: 2px solid white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.nav-item {
+    padding-right: 0;
 }
 
 /* ----------------------------------------- Section main page */
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
 
 .main-content {
     padding: 20px;
@@ -145,13 +184,6 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     padding-right: 0;
 }
 
-/*.unequalled-passion,
-.unrivalled-quality {
-    padding-top: 10px;
-}
-
-.unequalled-passion-text,
-.unrivalled-quality-text,*/
 .guaranteed-departure-text,
 .flexibility-text,
 .guaranteed-departure-option-expanded,
@@ -182,12 +214,7 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 }
 
 .card-body {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.card-body-full-size {
-    padding: 0;
+    padding: 20px 0 0;
 }
 
 .img-thumbnail {
@@ -252,7 +279,6 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
-    /* width: 48%; */
 }
 
 .btn-light:hover {
@@ -306,6 +332,10 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     font-weight: 100;
 }
 
+.footer-nav-item > a {
+    color: white;
+}
+
 /* ----------------------------------------- Contact Us Modal */
 
 .contact-us-form-name,
@@ -315,7 +345,29 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
     margin-bottom: 15px;
 }
 
-/* ----------------------------------------- Book Now Modal */
+/* ----------------------------------------- Book now page */
+
+.book-now-container {
+    padding: 20px;
+}
+
+.btn-go-to-payment,
+.btn-t-and-c-modal,
+.btn-back {
+    width: 100%;
+    margin-top: 0;
+}
+
+.btn-t-and-c-modal,
+.btn-back {
+    margin-bottom: 16px;
+}
+
+.booking-form {
+    text-align: center;
+}
+
+/* ----------------------------------------- Book Now Form */
 
 .book-now-form-name,
 .book-now-form-email,
@@ -333,29 +385,6 @@ name at the bottom of the div. See https://stackoverflow.com/questions/5288336/p
 .tour-option p {
     margin-top: 15px;
     margin-bottom: 0;
-}
-
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev{
-    display:block;
-}
-
-/* ----------------------------------------- Book now */
-
-.book-now-container {
-    padding: 20px;
-}
-
-.btn-go-to-payment,
-.btn-t-and-c-modal,
-.btn-back {
-    width: 100%;
-    margin: 0;
-}
-
-.btn-t-and-c-modal {
-    margin-bottom: 20px;
 }
 
 /* ----------------------------------------- Screen size */
