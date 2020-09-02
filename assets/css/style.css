@@ -155,6 +155,10 @@ span.navbar-toggler-icon {
     text-align:right;
 }
 
+.navbar-nav .nav-link {
+    padding-right: 16px;
+}
+
 .nav-link {
     color:white;
     padding-top: 5px;
