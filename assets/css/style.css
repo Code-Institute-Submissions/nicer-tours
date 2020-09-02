@@ -102,7 +102,7 @@ hr {
 span.navbar-toggler-icon {
     margin-bottom: 0;
 }
-/* end of from Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color and demo here: https://www.codeply.com/go/4FdZGlPMNV*/
+/* end of from Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color and demo here: https://www.codeply.com/go/4FdZGlPMNV */
 
 .custom-toggler {
     position: absolute;
@@ -218,6 +218,11 @@ background-color: rgba(0,47,167,0.75);
 
 .review-block {
     padding: 15px;
+}
+
+.left-review-name,
+.left-review-text {
+    text-align: left;
 }
 
 
