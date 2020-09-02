@@ -14,35 +14,37 @@
         <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image home-and-nice-banner">
-                    <div class="row banner-image-text">
-                        <div class="col-6 col-lg-4 company-name">
-                            <!-- See CSS file ".company-name span" for credit for company name staying at the bottom while neighbouring navigation div expands -->
-                            <a href="index.html"><span class="align-bottom">Nicer Tours</span></a>
+                    <!-- Navbar from Bootstrap, heavily modified, including: 
+                    color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
+                    hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
+                    Also, see CSS file for more details. -->
+                    <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
+                        <div class="row">
+                            <div class="col-4 home-side">
+                                <a class="navbar-brand navbar-brand-nicer-tours " href="index.html">Nicer Tours</a>
+                            </div>
                         </div>
-                        <div class="col-6 col-lg-8 navigation">
-                            <nav class="navbar navbar-personalised navbar-expand-lg">
-                                <!-- suggestion for Font Awesome Bar as toggler comes from Stack Overflow: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color-->
-                                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler-FontAwesomeBars" aria-controls="navbarToggler-FontAwesomeBars" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                        <div class="row">
+                            <div class="col-8 menu-side">
+                               <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarToggler-FontAwesomeBars">
-
-                                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
+                                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                                     <li class="nav-item">
-                                        <a id="nice" class="nav-link" href="tour-of-nice.html">Nice</a>
+                                        <a class="nav-link" href="tour-of-nice.html">Nice</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a id="monaco" class="nav-link" href="tour-of-monaco.html">Monaco</a>
+                                        <a class="nav-link" href="tour-of-monaco.html">Monaco</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a id="st-p" class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                                        <a class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
                                     </li>
                                     </ul>
-                                    
                                 </div>
-                            </nav>
+                            </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>

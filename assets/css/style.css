@@ -47,57 +47,89 @@ hr {
     min-height: 360px;
 }
 
-.banner-image-text {
-    background-color: rgba(0,0,0,0.15);
-    padding-top: 0px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-family: "Poiret One", sans-serif;
-    font-size: 36px;
-}
-
-.company-name {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-/* When I first tried nested containers for the nav bar and company logo, I knew I wanted each on opposite sides of a full size screen. 
-This meant that I could not easily use an "off the shelf" Bootstrap NavBar in a container-fluid div.
-Upon testing using the code I had written - 2 divs within the container-fluid, positioned at the bottom of the banner 
-image - the company name "rose" as the (collapsed) NavBar expanded. Stack Overflow enabled me to resolve this, and keep the company
-name at the bottom of the div. See https://stackoverflow.com/questions/5288336/put-text-at-bottom-of-div */ 
-
-.company-name span {
-    position: absolute;
-    bottom: 0px;
-    color: white;
-}
-
-.align-bottom {
-    padding-top: 8px;
-    padding-right: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-}
-
 /* ----------------------------------------- Navigation */
 
-.navigation {
-    text-align: right;
-    color: white;
-    padding-right: 0;
-}
-
-/* From https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/ */
 .navbar-personalised {
     display: inline-block;
     padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Poiret One, sans-serif;
+    background-color: rgba(0,0,0,0.2);
+    font-size: x-large;
 }
 
-.company-name-active span,
+.home-side {
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar-brand-nicer-tours {
+    color: white;
+    font-size: x-large;
+    position: absolute;
+    margin-right:16px;
+    bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navbar-brand-nicer-tours-active {
+    background-color: rgba(0,47,167,0.75);
+}
+
+.menu-side {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+}
+
+/* From Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color and demo here: https://www.codeply.com/go/4FdZGlPMNV*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 16px;
+}
+
+span.navbar-toggler-icon {
+    margin-bottom: 0;
+}
+/* end of from Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color and demo here: https://www.codeply.com/go/4FdZGlPMNV*/
+
+.custom-toggler {
+    position: absolute;
+    right: 8px;
+    top: -50px;
+    margin-left:auto;
+    margin-right: 8px;
+}
+
+.navbar-nav {
+    text-align:right;
+}
+
+.nav-link {
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand-nicer-tours:hover,
+.nav-item > a:hover {
+    color: white;
+}
+
+/*from https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/ */
+.navbar-brand-nicer-tours-active:hover,
+.navbar-brand-nicer-tours-active:focus,
 .navbar-personalised .navbar-nav > .active > a,
 .navbar-personalised .navbar-nav > .active > a:hover,
 .navbar-personalised .navbar-nav > .active > a:focus {
@@ -106,53 +138,15 @@ background-color: rgba(0,47,167,0.75);
 }
 /*end of from https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/ */
 
-.nav-item > a {
-    color: white;
-}
-
-.company-name span:hover,
+.navbar-brand-nicer-tours:hover,
 .nav-item > a:hover {
     color: rgba(0,47,167,0.75);
     background-color: rgba(255,255,255,0.5);
 }
 
-.navbar-nav .nav-link {
-    padding-right: 15px;
-    padding-left: 0;
-}
-
-.footer-nav-item > a {
-    color: white;
-}
-
-.navbar-toggler-icon {
-    color:white;
-    margin-bottom: 8px;
-}
-
-/* Using font-awesome icon for "burger" means that there is an ugly yellow border around the icon when tapped.
-I know it's there for accessibility reasons, but it doesn't fit the icon. I tried for a day to resize the burger icon to fit nicely,
-but didn't succeed. So I cheated by eliminating the yellow border. Code from Stack Overflow:
-https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4 */
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.fa-bars {
-    border: 2px solid white;
-    padding: 4px;
-    border-radius: 4px;
-}
-
-.nav-item {
-    padding-right: 0;
-}
-
 /* ----------------------------------------- Section main page */
 
+/* Carousel from Bootstrap */
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
@@ -191,9 +185,9 @@ https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-togg
     text-align: justify;
 }
 
-.guaranteed-departure-option-expanded,
-.flexibility-option-expanded {
-    border: 1px solid rgba(0,47,167,0.75);
+#how-guaranteed-departure-works,
+#how-flexibility-works {
+    margin: 0 15px;
 }
 
 .btn-guaranteed-departure,
@@ -324,6 +318,7 @@ https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-togg
     font-size: 24px;
     letter-spacing: 5px;
 }
+
 .copyright {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -399,6 +394,13 @@ https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-togg
     .company-location,
     .tours-offered {
         padding-bottom: 15px;
+    }
+
+    .align-bottom {
+    padding-top: 0;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 8px;
     }
 }
 
