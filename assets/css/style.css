@@ -174,8 +174,8 @@ background-color: rgba(0,47,167,0.75);
 .tour-destinations,
 .tour-reviews {
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .guaranteed-departure-text,
@@ -201,6 +201,12 @@ background-color: rgba(0,47,167,0.75);
 
 .reviews h4 {
     margin-top: 8px;
+}
+
+.carousel-inner-reviews-mobile {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .card {
@@ -244,14 +250,6 @@ background-color: rgba(0,47,167,0.75);
 #first-reviewer-photo,
 #second-reviewer-photo {
     width: 150px;
-}
-
-#first-review-block {
-    padding-left: 0;
-}
-
-#second-review-block {
-    padding-right: 0;
 }
 
 .first-reviewer-photo-carousel,
