@@ -83,8 +83,8 @@ hr {
     color: rgba(0,47,167,0.75);
     background-color: rgba(255,255,255,0.75);
     border: 0;
-    padding: 6px 12px;
-    border-radius: 4px;
+    padding: 6px 12px!important;
+    border-radius: 4px!important;
 }
 
 /* ----------------------------------------- Navigation */
