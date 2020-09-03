@@ -75,7 +75,17 @@ A hard lesson has been learned here. When I first embarked on this project, I wa
 represent. And thus I did not believe a wireframe was particularly important. However, as the project evolved, grew and started to take shape, I have
 realised how wrong this aasumption was! 
 
-!!!!!!!!!!!!!!!!
+[Home page for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-home.png")
+
+[Tours for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-tours.png")
+
+[Book Now for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-book-now.png")
+
+[Home page for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-home.png")
+
+[Tours for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-tours.png")
+
+[Book Now for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-book-now.png")
 
 ## Features:
 1) This website is fully responsive.
@@ -95,13 +105,15 @@ plus one - a [book now](https://justin-sawyer.github.io/nicer-tours/book-your-to
 or via the buttons on each of the tour pages.
 
 
-## Languages & Technologies used:
+## Technologies Used:
+### Languages:
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-HTML5
+[CSS](https://en.wikipedia.org/wiki/CSS)
 
-CSS
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-JavaScript
+### Frameworks, Libraries & Programs:
 
 Git
 
