@@ -95,16 +95,6 @@ realised how wrong this aasumption was!
 3) Although the project is not being marked on the inclusion of JavaScript elements, I have chosen to include one
 in the inclusion of the Call To Action popover. I included it for the challenge of making it work.
 
-
-
-
-
-This project has the landing page and the tour pages accesible from the navigation elements, 
-plus one - a [book now](https://justin-sawyer.github.io/nicer-tours/book-your-tour.html) page that is accesible either from the popover on the 
-[home page](https://8000-f82da427-fbe1-4278-8b3d-f317c5c08256.ws-eu01.gitpod.io/index.html) 
-or via the buttons on each of the tour pages.
-
-
 ## Technologies Used:
 ### Languages:
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -115,19 +105,56 @@ or via the buttons on each of the tour pages.
 
 ### Frameworks, Libraries & Programs:
 
-Git
-
-[GitHub](https://www.gitpod.io/)
-
-[GitPod](https://www.gitpod.io/)
-
-[Bootstrap](https://getbootstrap.com/)
+[Bootstrap v4.5.2](https://getbootstrap.com/)
+    Bootstrap forms the vast majority of the "formatting code" of this website. It was used because of its responsiveness and
+    because it is compatible with so many browsers. While the underlying code may be from Bootstrap, I have in places heavily modified it
+    (or tried to!). A good example of this is the Navigation bar. The colours used, the position of the site name and the colour of the "burger" 
+    icon. Credit for additional code used within is given in the HTML files themselves.
 
 [Google Fonts](https://fonts.google.com/)
+    Google Fonts were used to import the different fonts (Poiret One and Open Sans) used on this website.
 
 [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
+    The social icons seen in the footer of each page are from here, since they are so easily recognisable.
 
-The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) code verification tools
+[Popper.js](https://popper.js.org/)
+    Popper was used for the little piece of JavaScript in this project: the positioning of the popover in the Call To Action.
+
+[Git](https://git-scm.com)
+    Git was used for version control.
+
+[GitPod](https://www.gitpod.io/)
+    GitPod was used as the writing tool. 
+
+[GitHub](https://www.gitpod.io/)
+    GitHub was used as the repository for the files within this project.
+
+[Preview for Mac](https://support.apple.com/en-gb/guide/preview/welcome/mac)
+    Image sizing (both in terms of height and width, and weight of file) was undertaken using this app included within the Mac ecosystem.
+
+[Balsamiq](https://balsamiq.com)
+    Balsamiq was used for the creation of the wireframes.
+
+## Testing:
+
+The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) code verification tools were used to ensure
+there were no code errors in this project.
+
+
+
+
+
+
+
+
+### Known Bugs:
+1) The w3.org HTML validator suggests using a "polyfiller" to ensure all browsers are compatible with the "date" 
+attribute in the form on the Book Now page.
+
+2) Although JavaScript is not part of this project, there is an interesting bug that the JavaScript popover has brought up:
+attribute elements dressing as buttons automatically take on a lozenge shape in iOS. 
+
+
 
 ## Credits (general)
 
@@ -183,6 +210,10 @@ but also with the "nouveau riche" of the United States. A font that reminds of a
 with a huge influence in the world of Modern Art. 
 Its use on this site is designed to evoke this 1920s, 1930s period and the artistry that accompanied it.
 
+This project has the landing page and the tour pages accesible from the navigation elements, 
+plus one - a [book now](https://justin-sawyer.github.io/nicer-tours/book-your-tour.html) page that is accesible either from the popover on the 
+[home page](https://8000-f82da427-fbe1-4278-8b3d-f317c5c08256.ws-eu01.gitpod.io/index.html) 
+or via the buttons on each of the tour pages.
 ## Future plans
 
 Get :pseudos to function as they should.
