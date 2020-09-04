@@ -9,83 +9,83 @@ The brief for the project is to create a three page website, using HTML5 and CSS
 
 ## User Experience (UX)
 
-### User stories:
-#### First time visitors:
+- ### User stories:
+    - #### First time visitors:
 
-1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that informs me about
+        1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that informs me about
 the most interesting sights and places I can visit while on this vacation.
 
-2) I want to have my interest piqued while I view the website, and thus choose to make a booking for a tour.
+        2) I want to have my interest piqued while I view the website, and thus choose to make a booking for a tour.
 
-3) As a first time visitor to the website and perhaps to the geographical area covered in the site, 
+        3) As a first time visitor to the website and perhaps to the geographical area covered in the site, 
 I am perhaps uninformed about the area I am visiting, and thus want to be informed first and foremost 
 before choosing to book or not. Because of this, I do not want to feel pressured to buy, however a 
 little special offer may help me choose this company rather than another.
 
-4) I want to be able to navigate through the website easily, and be prompted where necessary to either 
+        4) I want to be able to navigate through the website easily, and be prompted where necessary to either 
 contact the site creators (and service vendor) or make a booking easily if I choose to.
 
-5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of 
+        5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of 
 tour company, so customer reviews and social comments about the company are very important.
 
-#### Returning visitors:
+    - #### Returning visitors:
 
-1) As a returning visitor, I want to be able to add my story to the many reviews I have seen on the website.
+        1) As a returning visitor, I want to be able to add my story to the many reviews I have seen on the website.
 
-2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded 
+        2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded 
 of the fun I had, and also be able to inform others about the service offered by the company. Thus, good 
 navigation and design are important, but so is the general informative nature of the services and sights offered on the site.
 
-#### Frequent visitors:
+    - #### Frequent visitors:
 
-1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on vacation once only.
+        1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on vacation once only.
 It is not in the remit of this project to offer a professional "back-door" entrance to the services of this site. However, it is partly for this that the 
 discount popover has been included, along with the easy booking options on the book now page.
 
-### Design:
-#### Colour scheme:
-The project uses two main colours, both emblematic of the city of Nice. 
+- ### Design:
+    - #### Colour scheme:
+        The project uses two main colours, both emblematic of the city of Nice. 
 These two colour are the Yves Klein International Blue, contrasted with white.
 
-1) Nice - main city of the *Côte d'Azur* which in itself means Blue Coast - is famous for its blue skies and 
+        1) Nice - main city of the *Côte d'Azur* which in itself means Blue Coast - is famous for its blue skies and 
 blue sea. The Yves Klein International Blue (rgb 0,47,167) was created by the artist Yves Klein, himself born in Nice.
 
-2) A pure, simple white background was chosen as white represents light, another quality of which Nice and the surrounding area is famous for.
+        2) A pure, simple white background was chosen as white represents light, another quality of which Nice and the surrounding area is famous for.
 
-#### Typography:
+    - #### Typography:
 
-Again, two distinct font styles have been used, but each compliments the other.
+        Again, two distinct font styles have been used, but each compliments the other.
 
-1) Titles, headings and other "special use cases" (for example, the Call To Action banner) use the Poiret One font.
+        1) Titles, headings and other "special use cases" (for example, the Call To Action banner) use the Poiret One font.
 This font was chosen as it represents the *Belle Epoque* era of the 1920s and 30s, a time when the *Côte d'Azur* and Nice itself were
 amongst the most fashionable of destinations.
 
-2) The Open Sans font was chosen as the typeset for the main body of the website. Although Poiret One is an extremely elegant font, it would have been
+        2) The Open Sans font was chosen as the typeset for the main body of the website. Although Poiret One is an extremely elegant font, it would have been
 overkill to use this font uniquely. Thus, the equally elegant Open Sans font was chosen to compliment.
 
-Both fonts use Sans Serif as a fallback if for in any case the chosen fonts do not render.
+        Both fonts use Sans Serif as a fallback if for in any case the chosen fonts do not render.
 
-#### Imagery:
+    - #### Imagery:
 
-The website is designed to entice the user to either take a tour, to dream of their upcoming vacation or to tempt first time users to choose Nice and the *Côte d'Azur* for their next 
+        The website is designed to entice the user to either take a tour, to dream of their upcoming vacation or to tempt first time users to choose Nice and the *Côte d'Azur* for their next 
 vacation destination. It is for this reason that wide panoramic photos have been used for the banners to each page, while scrolling images (carousels) have been used as a further navigational aid on the home page.
 
-### Wireframes:
-A hard lesson has been learned here. When I first embarked on this project, I was convinced that I had a very good idea of what I wanted this project to
+- ### Wireframes:
+    A hard lesson has been learned here. When I first embarked on this project, I was convinced that I had a very good idea of what I wanted this project to
 represent. And thus I did not believe a wireframe was particularly important. However, as the project evolved, grew and started to take shape, I have
 realised how wrong this aasumption was! 
 
-[Home page for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-home.png)
+    [Home page for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-home.png)
 
-[Tours for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-tours.png)
+    [Tours for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-tours.png)
 
-[Book Now for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-book-now.png)
+    [Book Now for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-book-now.png)
 
-[Home page for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-home.png)
+    [Home page for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-home.png)
 
-[Tours for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-tours.png)
+    [Tours for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-tours.png)
 
-[Book Now for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-book-now.png)
+    [Book Now for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-book-now.png)
 
 ## Features:
 1) This website is fully responsive.
@@ -106,34 +106,34 @@ in the inclusion of the Call To Action popover. I included it for the challenge 
 ### Frameworks, Libraries & Programs:
 
 [Bootstrap v4.5.2](https://getbootstrap.com/)
-    Bootstrap forms the vast majority of the "formatting code" of this website. It was used because of its responsiveness and
+    forms the vast majority of the "formatting code" of this website. It was used because of its responsiveness and
     because it is compatible with so many browsers. While the underlying code may be from Bootstrap, I have in places heavily modified it
     (or tried to!). A good example of this is the Navigation bar. The colours used, the position of the site name and the colour of the "burger" 
     icon. Credit for additional code used within is given in the HTML files themselves.
 
 [Google Fonts](https://fonts.google.com/)
-    Google Fonts were used to import the different fonts (Poiret One and Open Sans) used on this website.
+    were used to import the different fonts (Poiret One and Open Sans) used on this website.
 
 [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
-    The social icons seen in the footer of each page are from here, since they are so easily recognisable.
+    was used for the social icons seen in the footer of each page are from here, since they are so easily recognisable.
 
 [Popper.js](https://popper.js.org/)
-    Popper was used for the little piece of JavaScript in this project: the positioning of the popover in the Call To Action.
+    was used for the little piece of JavaScript in this project: the positioning of the popover in the Call To Action.
 
 [Git](https://git-scm.com)
-    Git was used for version control.
+    was used for version control.
 
 [GitPod](https://www.gitpod.io/)
-    GitPod was used as the writing tool. 
+    was used as the writing tool. 
 
 [GitHub](https://www.gitpod.io/)
-    GitHub was used as the repository for the files within this project.
+    was used as the repository for the files within this project.
 
 [Preview for Mac](https://support.apple.com/en-gb/guide/preview/welcome/mac)
-    Image sizing (both in terms of height and width, and weight of file) was undertaken using this app included within the Mac ecosystem.
+    was used for image sizing (both in terms of height and width, and weight of file).
 
 [Balsamiq](https://balsamiq.com)
-    Balsamiq was used for the creation of the wireframes.
+    was used for the creation of the wireframes.
 
 ## Testing:
 

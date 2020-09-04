@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Document</title>
+    <title>Nicer Tours | St. Paul de Vence</title>
 </head>
 
 <body>
@@ -18,7 +18,31 @@
                     color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
                     hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
                     Also, see CSS file for more details. -->
+                    
                     <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
+                        
+                        <a class="navbar-brand navbar-brand-nicer-tours" href="index.html">Nicer Tours</a>
+                        
+                        <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="tour-of-nice.html">Nice</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tour-of-monaco.html">Monaco</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence <span class="sr-only">(current)</span></a>
+                            </li>
+                            </ul>
+                        </div>
+                        
+                        <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            
+                    </nav>
+                    <!--<nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
                         <div class="row">
                             <div class="col-5 home-side">
                                 <a class="navbar-brand navbar-brand-nicer-tours " href="index.html">Nicer Tours</a>
@@ -44,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                    </nav>
+                    </nav>-->
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Document</title>
+    <title>Nicer Tours | Home</title>
 </head>
 
 <body>
@@ -23,39 +23,35 @@
                     Making it work on iOS from Stack Overflow (https://stackoverflow.com/questions/34049600/bootstrap-popover-is-not-working-on-ipad-safari) -->
                     <div id="call-to-action">
                         <p id="call-to-action-text">10% off Flexbility tours to Monaco until 30th September<br><br>
-                        <a tabindex="0" role="button" type="button" class="btn btn-discount" data-placement="bottom" data-original-title="Copy this code on the <a href='https://justin-sawyer.github.io/nicer-tours/book-your-tour.html'>Book Now</a> page" data-toggle="popover" data-trigger="focus" data-html="true" data-content="NICER10MONACO">Discount code</a></p>       
+                        <a tabindex="0" role="button" class="btn btn-discount" data-placement="bottom" data-original-title="Copy this code on the <a href='book-your-tour.html'>Book Now</a> page" data-toggle="popover" data-trigger="focus" data-html="true" data-content="NICER10MONACO">Discount code</a></p>       
                     </div>
                 
                     <!-- Navbar from Bootstrap, heavily modified, including: 
                     color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
                     hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
                     Also, see CSS file for more details. -->
+                    
                     <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
-                        <div class="row">
-                            <div class="col-5 home-side">
-                                <a class="navbar-brand navbar-brand-nicer-tours navbar-brand-nicer-tours-active" href="index.html">Nicer Tours <span class="sr-only">(current)</span></a>
-                            </div>
+                        
+                        <a class="navbar-brand navbar-brand-nicer-tours navbar-brand-nicer-tours-active" href="index.html">Nicer Tours  <span class="sr-only">(current)</span></a>
+                        
+                        <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="tour-of-nice.html">Nice</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tour-of-monaco.html">Monaco</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                            </li>
+                            </ul>
                         </div>
-                        <div class="row">
-                            <div class="col-7 menu-side">
-                                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
-                                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="tour-of-nice.html">Nice</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="tour-of-monaco.html">Monaco</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
-                                    </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>                        
                     </nav>
                 </div>
             </div>

@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -16,7 +11,44 @@
 </head>
 
 <body>
+
     <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 banner-image-monaco-banner">
+                    <!-- Navbar from Bootstrap, heavily modified, including: 
+                    color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
+                    hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
+                    Also, see CSS file for more details. -->
+                    <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
+                        
+                        <a class="navbar-brand navbar-brand-nicer-tours" href="index.html">Nicer Tours</a>
+                        
+                        <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="tour-of-nice.html">Nice</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="tour-of-monaco.html">Monaco <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                            </li>
+                            </ul>
+                        </div>
+                        
+                        <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--<header>
         <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image home-and-nice-banner">
@@ -25,7 +57,7 @@
                     (https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=To%20create%20a%20popover%2C%20add,popover%22%20attribute%20to%20an%20element.&text=Note%3A%20Popovers%20must%20be%20initialized,call%20the%20popover()%20method),
                     data-html="true" from http://jsfiddle.net/IrvinDominin/N5WTG/ 
                     and flashing effect from Stack Overflow (https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css-3),
-                    specifically this example: http://jsfiddle.net/umz8t/6490/-->
+                    specifically this example: http://jsfiddle.net/umz8t/6490/--
                     <div id="call-to-action">
                         <p id="call-to-action-text">10% off Flexbility tours to Monaco until 30th September<br><br>
                         <button type="button" class="btn btn-discount" style="color:rgba(0,47,167,0.75); background-color: rgba(255,255,255,0.75); border:0;" data-placement="bottom" data-original-title="Copy this code on the <a href='https://justin-sawyer.github.io/nicer-tours/book-your-tour.html'>Book Now</a> page" data-toggle="popover" data-trigger="focus" data-html="true" data-content="NICER10MONACO">Click me for your discount code</button></p>       
@@ -36,9 +68,9 @@
                         bottom: 0;
                         left: 0;
                         right: 0;
-                        padding:0;
+                        padding:23px 0;
                         font-family: Poiret One, sans-serif;
-                        background-color: rgba(0,0,0,0.2);
+                        background-color: rgba(0,0,0,0.4);
                         font-size: x-large;">
 
                         <div class="row">
@@ -188,12 +220,14 @@
                                 </ul>
                             </div>
                     
-                    </nav>-->
+                    </nav>--
                         
                 </div>
             </div>
         </div>
-    </header>
+    </header>-->
+
+
 
         <!--<nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family:Poiret One, sans serif; font-size:24px;">
             <a class="navbar-brand" href="#" style="font-size:24px;">Nicer Tours</a>
@@ -224,7 +258,7 @@
     https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=To%20create%20a%20popover%2C%20add,popover%22%20attribute%20to%20an%20element.&text=Note%3A%20Popovers%20must%20be%20initialized,call%20the%20popover()%20method.
     and data-html="true" from http://jsfiddle.net/IrvinDominin/N5WTG/ -->
 
-        <div class="container">
+       <!-- <div class="container">
             <h3>Popover Example</h3>
             <button type="button" class="btn btn-light" data-original-title="Copy this code on the <a href='https://justin-sawyer.github.io/nicer-tours/book-your-tour.html'>Book Now</a> page" data-toggle="popover" data-trigger="focus" data-html="true" data-content="NICER10MONACO">Click me</button>
         </div>
@@ -234,7 +268,7 @@
             $('[data-toggle="popover"]').popover();   
         });
         </script>
-    </section>
+    </section>-->
 
 
     <footer>
@@ -301,11 +335,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
