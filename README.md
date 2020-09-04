@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://justin-sawyer.github.io/nicer-tours/index.html">Nicer Tours</a></h1>
 
-<img src="assets/images/screenshot.jpg">
+<img src="documentation/screenshot.jpg">
 
 This is my User Centric Frontend Development Milestone Project for Code Institute. 
 It is a resposive website designed to be accessible on all web browsers. 
@@ -75,17 +75,17 @@ vacation destination. It is for this reason that wide panoramic photos have been
 represent. And thus I did not believe a wireframe was particularly important. However, as the project evolved, grew and started to take shape, I have
 realised how wrong this aasumption was! 
 
-    [Home page for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-home.png)
+    [Home page for Desktop](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/desktop-home.png)
 
-    [Tours for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-tours.png)
+    [Tours for Desktop](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/desktop-tours.png)
 
-    [Book Now for Desktop](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/desktop-book-now.png)
+    [Book Now for Desktop](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/desktop-book-now.png)
 
-    [Home page for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-home.png)
+    [Home page for Mobile](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/mobile-home.png)
 
-    [Tours for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-tours.png)
+    [Tours for Mobile](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/mobile-tours.png)
 
-    [Book Now for Mobile](https://justin-sawyer.github.io/nicer-tours/assets/wireframe/mobile-book-now.png)
+    [Book Now for Mobile](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/mobile-book-now.png)
 
 ## Features:
 1) This website is fully responsive.
