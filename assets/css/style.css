@@ -95,7 +95,8 @@ hr {
     right: 0;
     width: 100%;
     padding: 0;
-    font-family: Poiret One, sans-serif;
+    overflow: hidden;
+    font-family: "Poiret One", sans-serif;
     font-size: x-large;
     background-color:rgba(0,47,167,0.75);
 }
@@ -105,7 +106,7 @@ hr {
     bottom: 0; 
     font-size: x-large; 
     color: white; 
-    padding: 6px 16px;
+    padding: 8px 16px;
 }
 
 #navbarTogglerNicerTours {
