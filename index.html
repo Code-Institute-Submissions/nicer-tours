@@ -10,12 +10,13 @@
 
 <body>
     <h1 class="d-none">Nicer Tours | Home</h1>
-    <header>
+    <header class="hero-and-navigation">
+        <!-- Container from Bootstrap -->
         <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image home-and-nice-banner">
 
-                    <!-- Call to action features css for <p> from https://www.educative.io/edpresso (https://www.educative.io/edpresso/how-to-wrap-text-using-css), 
+                    <!-- Call to action features css for #call-to-action-text from https://www.educative.io/edpresso (https://www.educative.io/edpresso/how-to-wrap-text-using-css), 
                     Popover and script from w3schools.com 
                     (https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=To%20create%20a%20popover%2C%20add,popover%22%20attribute%20to%20an%20element.&text=Note%3A%20Popovers%20must%20be%20initialized,call%20the%20popover()%20method),
                     data-html="true" from http://jsfiddle.net/IrvinDominin/N5WTG/ 
@@ -30,7 +31,7 @@
                     <!-- Navbar from Bootstrap, heavily modified, including: 
                     color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
                     hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
-                    Also, see CSS file for more details. -->
+                    Also, see CSS file (.custom-toggler, .navbar-toggler-icon, .navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a) for more details. -->
                     
                     <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
                         <h2 class="d-none">Home</h2>
@@ -60,11 +61,14 @@
         </div>
     </header>
 
-    <section>
+    <section class="main-body-content-section">
+        <!-- Conatiner elements used for grid sizing, collapse, cards and carousel code from Bootstrap. 
+        Further credit for cards within carousels given in .tour-reviews.-->
         <div class="container-fluid main-content">
             <div class="row justify-content-center">
                 <div class="col-lg-9">
-                    <div class="main-slogan">
+
+                    <div class="container main-slogan">
                         <h2>The Nicest tours you'll find in Nice!</h2>
                     </div>
 
@@ -74,7 +78,7 @@
                                 <div class="col-12">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <div class="card tour-slideshow">
+                                        <div class="tour-slideshow">
                                             <div id="carousel-nice" class="carousel slide carousel-fade" data-intervaal="6000" data-ride="carousel">
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
@@ -188,11 +192,10 @@
 
                     <div class="container tour-reviews">
                         <h3>Tour Reviews:</h3>
-                        <!-- Code from Boostrap, but "is it possible to put other things like cards instead of images 
-                        and how to do it" comes from https://www.youtube.com/watch?v=WBcCvNASbuc. Applies for both carousels below.-->
+                        <!-- Code from Boostrap, but the idea of putting further elements (like cards, text) comes from https://www.youtube.com/watch?v=WBcCvNASbuc. Applies for both carousels below.-->
                         <!-- Full size reviews carousel -->
                         <div class="row">
-                            <div class="col-md-12 d-none d-md-block review-block" id="first-review-block">
+                            <div class="col-md-12 d-none d-md-block review-block">
                                 <div id="reviews-full-size-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
                                     <div class="carousel-inner carousel-inner-reviews-full-size">
                                         <div class="carousel-item active">
@@ -307,54 +310,57 @@
         </div>
     </section>
 
-    <!-- Modals from Bootstrap -->
-    <div class="modal fade" id="guaranteed-departureModal" tabindex="-1" role="dialog" aria-labelledby="guaranteed-departure-Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="guaranteed-departure-Label">The Guaranteed Departure Option</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
-                    <p>Your tour is guaranteed never to be cancelled, because if, on the reserved tour date, the tour does not reach the break-even 
-                    point, you accept paying the difference. 
-                    If the tour has reached the break-even point for its operation, you pay no surcharge.*</p> 
-                    <p>On the day of your tour, you will confirm the number of passengers in total on your tour, agreed with your guide, via an app. Nicer Tours then debit you the difference.</p>
-                    <p style="text-align:right;"><small>*Generally, the break-even point is 4 passengers per tour.</small></p>                       
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+    <section class="modals-home-page">
+        <!-- Modals from Bootstrap -->
+        <div class="modal fade" id="guaranteed-departureModal" tabindex="-1" role="dialog" aria-labelledby="guaranteed-departure-Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="guaranteed-departure-Label">The Guaranteed Departure Option</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
+                        <p>Your tour is guaranteed never to be cancelled, because if, on the reserved tour date, the tour does not reach the break-even 
+                        point, you accept paying the difference. 
+                        If the tour has reached the break-even point for its operation, you pay no surcharge.*</p> 
+                        <p>On the day of your tour, you will confirm the number of passengers in total on your tour, agreed with your guide, via an app. Nicer Tours then debit you the difference.</p>
+                        <p style="text-align:right;"><small>*Generally, the break-even point is 4 passengers per tour.</small></p>                       
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="modal fade" id="flexibilityModal" tabindex="-1" role="dialog" aria-labelledby="flexibility-Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="flexibility-Label">The Flexible Departure Option</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
-                    <p>However, if the tour reserved is not fully booked on the day of your reservation you accept the risk that your tour date changes or is cancelled. 
-                    Alternatively, you may be asked to either join another tour or have your tour operated by another company*.</p>
-                    <p style="text-align:right;"><small>*Note that Nicer Tours have many partners, however, we cannot guarantee the quality of our partners’ tours.</small></p>                       
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+        <div class="modal fade" id="flexibilityModal" tabindex="-1" role="dialog" aria-labelledby="flexibility-Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="flexibility-Label">The Flexible Departure Option</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>When you reserve your tour, you’ll be charged the rate advertised here.</p>
+                        <p>However, if the tour reserved is not fully booked on the day of your reservation you accept the risk that your tour date changes or is cancelled. 
+                        Alternatively, you may be asked to either join another tour or have your tour operated by another company*.</p>
+                        <p style="text-align:right;"><small>*Note that Nicer Tours have many partners, however, we cannot guarantee the quality of our partners’ tours.</small></p>                       
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer>
+    <!-- Container elements from Bootstrap, Social media icons from Font-Awesome -->
         <div class="container-fluid footer-section">
             <div class="row justify-content-center">
                 <div class="col-sm-9">
@@ -385,7 +391,7 @@
                         <div class="col-md-6 col-lg-6 company-location">
                             <h4>Contact Us:</h4>
                             <!-- I wanted a class beginning with "add" for something and found Emmet prompted me for <address>. 
-                            Went to w3schools (https://www.w3schools.com/tags/tag_address.asp) to find out more and include properly. -->
+                            Credit for w3schools (https://www.w3schools.com/tags/tag_address.asp) for proper use. -->
                             <address>
                                 Nicer Tours<br>
                                 Rue de Nice<br>
@@ -423,11 +429,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+    <!-- Makes popover work. Froms w3schools.com https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=To%20create%20a%20popover,%20add,popover%22%20attribute%20to%20an%20element.&text=Note:%20Popovers%20must%20be%20initialized,call%20the%20popover()%20method -->
     <script>
         $(document).ready(function(){
             $('[data-toggle="popover"]').popover();   
         });
-        </script>
+    </script>
 
 </body>
 </html>

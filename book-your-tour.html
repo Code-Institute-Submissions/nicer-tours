@@ -11,14 +11,15 @@
 
 <body>
     <h1 class="d-none">Nicer Tours | Book Your Tour</h1>
-    <header>
+    <header class="hero-and-navigation">
+        <!-- Container from Bootstrap -->
         <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image home-and-nice-banner">
                     <!-- Navbar from Bootstrap, heavily modified, including: 
                     color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
                     hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
-                    Also, see CSS file for more details. -->
+                    Also, see CSS file (.custom-toggler, .navbar-toggler-icon, .navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a)for more details. -->
                     
                     <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">   
                          <h2 class="d-none">Book Now</h2>                   
@@ -48,7 +49,8 @@
         </div>
     </header>
 
-    <section>
+    <section class="booking-page-and-form">
+        <!-- Container from Bootstrap -->
         <div class="container-fluid book-now-container">
             <div class="row justify-content-center">
                 <div class="col-lg-9">
@@ -63,6 +65,7 @@
                         </div>
                         <div class="col-sm-8 book-now book-now-description">
                             <h2>Book Your Tour:</h2>
+                            <!-- General <form> code from what I've learned so far from the modules. Further elements from as credited below -->
                             <form class="booking-form">
                                 <input class="book-now-form-name" type="text" name="book-now-name" id="book-now-name" placeholder="Name" required />
                                 <input class="book-now-form-email" type="email" name="book-now-email" id="book-now-email" placeholder="Email" required />
@@ -115,30 +118,33 @@
         </div>
     </section>
 
-    <!-- Modal Terms & Conditions (Code from Bootstrap) -->
-    <div class="modal fade" id="t-and-cModal" tabindex="-1" role="dialog" aria-labelledby="t-and-c-Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="t-and-c-Label">Terms and Conditions:</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>These are Nicer Tour's terms and conditions.</p>
-                    <p>There will surely be something in them that needs an asterisk.*</p> 
-                    <p>Evenutally, I'll put the Accept T&C checkbox from the form here, and only allow the form to trigger once this has been checked. But at the moment, I don't know how to do that.</p>
-                    <p style="text-align:right;"><small>*Like this!</small></p>                       
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+    <section class="t-and-c-modal">
+        <!-- Modal code from Bootstrap) -->
+        <div class="modal fade" id="t-and-cModal" tabindex="-1" role="dialog" aria-labelledby="t-and-c-Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="t-and-c-Label">Terms and Conditions:</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>These are Nicer Tour's terms and conditions.</p>
+                        <p>There will surely be something in them that needs an asterisk.*</p> 
+                        <p>Evenutally, I'll put the Accept T&C checkbox from the form here, and only allow the form to trigger once this has been checked. But at the moment, I don't know how to do that.</p>
+                        <p style="text-align:right;"><small>*Like this!</small></p>                       
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer>
+    <!-- Container elements from Bootstrap, Social media icons from Font-Awesome -->
         <div class="container-fluid footer-section">
             <div class="row justify-content-center">
                 <div class="col-sm-9">
@@ -169,7 +175,7 @@
                         <div class="col-md-6 col-lg-6 company-location">
                             <h4>Contact Us:</h4>
                             <!-- I wanted a class beginning with "add" for something and found Emmet prompted me for <address>. 
-                            Went to w3schools (https://www.w3schools.com/tags/tag_address.asp) to find out more and include properly. -->
+                            Credit for w3schools (https://www.w3schools.com/tags/tag_address.asp) for proper use. -->
                             <address>
                                 Nicer Tours<br>
                                 Rue de Nice<br>

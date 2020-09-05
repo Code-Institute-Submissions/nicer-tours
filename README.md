@@ -106,7 +106,7 @@ in the inclusion of the Call To Action popover. I included it for the challenge 
 ### Frameworks, Libraries & Programs:
 
 [Bootstrap v4.5.2](https://getbootstrap.com/)
-    forms the vast majority of the "formatting code" of this website. It was used because of its responsiveness and
+    forms the vast majority of the "formatting code" - the gird system, containers, button elements etc. - of this website. It was used because of its responsiveness and
     because it is compatible with so many browsers. While the underlying code may be from Bootstrap, I have in places heavily modified it
     (or tried to!). A good example of this is the Navigation bar. The colours used, the position of the site name and the colour of the "burger" 
     icon. Credit for additional code used within is given in the HTML files themselves.

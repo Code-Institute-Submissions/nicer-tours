@@ -11,14 +11,15 @@
 
 <body>
     <h1 class="d-none">Nicer Tours | St. Paul de Vence</h1>
-    <header>
-        <div class="container-fluid">
+    <header class="hero-and-navigation">
+        <!-- Container from Bootstrap -->
+        <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image-st-paul-banner">
                     <!-- Navbar from Bootstrap, heavily modified, including: 
                     color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
                     hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
-                    Also, see CSS file for more details. -->
+                    Also, see CSS file (.custom-toggler, .navbar-toggler-icon, .navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a)for more details. -->
                     
                     <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
                         <h2 class="d-none">Tour of St. Paul de Vence</h2>
@@ -76,6 +77,7 @@
     </header>
 
     <section>
+        <!-- Grid sizing responsive containers and buttons from Bootstrap -->
         <div class="container-fluid tour-main-content tour-of-nice-main-content">
             <div class="row justify-content-center">
                 <div class="col-sm-9">
@@ -176,8 +178,9 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!-- This code is copied from the Rosie Odenkirk resumé project. It runs, but does not give a confirmation message -->
-                    <form>
+                    <!-- This code is taken from the Rosie Odenkirk resumé project. 
+                    It runs, but does not give a confirmation message, so I used the action="#" from w3schools to confirm form works -->
+                    <form class="contact-us-tour-of-st-paul-form" method="post" action="https://www.w3schools.com/action_page.php" target="_blank">
                         <input class="contact-us-form-name" type="text" name="name" id="name" placeholder="Name" required />
                         <input class="contact-us-form-email" type="email" name="email" id="email" placeholder="Email" required />
                         <textarea class="contact-us-form-message" name="message" id="message" rows="5" placeholder="Write your message" required></textarea>
@@ -194,6 +197,7 @@
     </div>
 
     <footer>
+    <!-- Container elements from Bootstrap, Social media icons from Font-Awesome -->
         <div class="container-fluid footer-section">
             <div class="row justify-content-center">
                 <div class="col-sm-9">
@@ -224,7 +228,7 @@
                         <div class="col-md-6 col-lg-6 company-location">
                             <h4>Contact Us:</h4>
                             <!-- I wanted a class beginning with "add" for something and found Emmet prompted me for <address>. 
-                            Went to w3schools (https://www.w3schools.com/tags/tag_address.asp) to find out more and include properly. -->
+                            Credit for w3schools (https://www.w3schools.com/tags/tag_address.asp) for proper use. -->
                             <address>
                                 Nicer Tours<br>
                                 Rue de Nice<br>
