@@ -140,6 +140,7 @@ in the inclusion of the Call To Action popover. I included it for the challenge 
 The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) code verification tools were used to ensure
 there were no code errors in this project.
 
+[Home](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/home.mov)
 
 
 
@@ -151,8 +152,6 @@ there were no code errors in this project.
 1) The w3.org HTML validator suggests using a "polyfiller" to ensure all browsers are compatible with the "date" 
 attribute in the form on the Book Now page.
 
-2) Although JavaScript is not part of this project, there is an interesting bug that the JavaScript popover has brought up:
-attribute elements dressing as buttons automatically take on a lozenge shape in iOS. 
 
 
 

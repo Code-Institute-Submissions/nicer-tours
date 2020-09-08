@@ -59,6 +59,7 @@ hr {
 
 /* ----------------------------------------- Call to Action */
 
+/* For credit of #call-to-action, #call-to-action-text and @keyframes see lines 20 to 26 of index.html or tour-of-monaco.html*/
 #call-to-action {
     text-align: center;
     color: white;
@@ -69,7 +70,7 @@ hr {
 }
 
 #call-to-action-text {
-    font-family:Poiret One, sans-serif;
+    font-family: "Poiret One", sans-serif;
     border-radius: 5px;
     animation: blinker 2s linear infinite;
     font-size: large;
@@ -311,6 +312,16 @@ background-color: white;
     margin-bottom: 15px;
 }
 
+/* Text placement within carousel from Stack Overflow (https://stackoverflow.com/questions/25095260/bootstrap-caption-outside-carousel) */
+.carousel-caption {
+    bottom: -20px;
+}
+
+.carousel-text-description {
+    font-family: "Poiret One", sans-serif; 
+    font-size: 1.25rem;
+}
+
 .accordian-card-header {
     padding-left: 0px;
     padding-right: 0px;
@@ -322,6 +333,7 @@ background-color: white;
 .accordian-button {
     color: rgba(0,47,167,0.75);
     box-shadow: none;
+    padding-left: 0;
 }
 .accordian-button:hover {
     color: rgba(0,47,167,0.75);
@@ -456,13 +468,6 @@ background-color: white;
     .company-location,
     .tours-offered {
         padding-bottom: 15px;
-    }
-
-    .align-bottom {
-    padding-top: 0;
-    padding-right: 8px;
-    padding-bottom: 6px;
-    padding-left: 8px;
     }
 }
 
