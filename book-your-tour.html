@@ -10,38 +10,40 @@
 </head>
 
 <body>
-    <h1 class="d-none">Nicer Tours | Book Your Tour</h1>
     <header class="hero-and-navigation">
         <!-- Container from Bootstrap -->
         <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image home-and-nice-banner">
+
                     <!-- Navbar from Bootstrap, heavily modified, including: 
-                    color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
-                    hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
-                    Also, see CSS file (.custom-toggler, .navbar-toggler-icon, .navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a)for more details. -->
-                    
-                    <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">   
-                         <h2 class="d-none">Book Now</h2>                   
-                        <a class="navbar-brand navbar-brand-nicer-tours" href="index.html">Nicer Tours</a>
+                    Color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
+                    Hamburger toggle icon color from Bootstrap icons (https://icons.getbootstrap.com/icons/list/) 
+                    Also, see CSS file (.navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a) for more details. -->
+
+                    <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">                     
+                        <a class="navbar-brand navbar-brand-nicer-tours" href="index.html"><h1>Nicer Tours</h1></a>
                         
                         <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
                             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="tour-of-nice.html">Nice</a>
+                                <a class="nav-link" href="tour-of-nice.html"><h2>Nice</h2></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tour-of-monaco.html">Monaco</a>
+                                <a class="nav-link" href="tour-of-monaco.html"><h2>Monaco</h2></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                                <a class="nav-link" href="tour-of-st-paul-de-vence.html"><h2>St. Paul de Vence</h2></a>
                             </li>
                             </ul>
                         </div>
                         
                         <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>                            
+                            <svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color:white;">
+                            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </button>
+
                     </nav>
                     
                 </div>
@@ -55,6 +57,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9">
                     <div class="row">
+                    
                         <div class="col-sm-4 enjoy-your-tour-text">
                             <!--Back button from w3schools.com  https://www.w3schools.com/jsref/met_his_back.asp -->
                                 <button type="button" class="btn btn-light btn-block btn-back" onclick="goBack()">Back</button>
@@ -63,6 +66,7 @@
                                     <p>Before booking your tour, please make sure you have read our Terms and Conditions.</p>
                                 <button type="button" class="btn btn-light d-block btn-t-and-c-modal" data-toggle="modal" data-target="#t-and-cModal">Terms & Conditions</button>
                         </div>
+
                         <div class="col-sm-8 book-now book-now-description">
                             <h2>Book Your Tour:</h2>
                             <!-- General <form> code from what I've learned so far from the modules. Further elements from as credited below -->
@@ -71,6 +75,7 @@
                                 <input class="book-now-form-email" type="email" name="book-now-email" id="book-now-email" placeholder="Email" required />
                                 <!-- From w3schools.com https://www.w3schools.com/tags/att_select_required.asp -->
                                 <input class="book-now-form-tel" type="tel" name="tel" id="tel" placeholder="Phone incl. Country Code / WhatsApp" required />
+                                
                                 <div class="tour-tour-date-and-number-of-pax">
                                     <label for="tour">Choose your tour:</label>
                                     <select name="tour" id="tour" required>
@@ -91,8 +96,8 @@
                                     <br>
                                     <label for="discount-code">Discount Code:</label>
                                     <input class="discount-code" type="text" name="discount-code" id="discount-code" placeholder="Enter code" />
-
                                 </div>
+
                                 <div class="tour-option">
                                     <p>Tour Option:</p>
                                     <label for="guaranteed-departure">Guaranteed Departure</label>
@@ -105,13 +110,16 @@
                                     <br> 
                                 </div>
                                 <!-- End of from w3schools.com -->
+
                                 <div class="form-row text-center">
                                     <div class="col">
                                         <button type="submit" class="btn btn-light btn-go-to-payment">Proceed To Payment</button>
                                     </div>
                                 </div>
+
                             </form>
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -25,6 +25,20 @@ hr {
     font-weight: 100;
 }
 
+.btn-light {
+    background-color: rgba(0,47,167,0.75);
+    border: 1px solid white;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-light:hover {
+    background-color: white;
+    border: 1px solid rgba(0,47,167,0.75);
+    color: rgba(0,47,167,0.75);
+}
+
 .small-text {
     text-align: right;
     font-size: 80%;
@@ -59,25 +73,43 @@ hr {
 
 /* ----------------------------------------- Call to Action */
 
-/* For credit of #call-to-action, #call-to-action-text and @keyframes see lines 20 to 26 of index.html or tour-of-monaco.html*/
+.promotion {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0;
+}
+
+/* For credit of #call-to-action, #call-to-action-text and @keyframes see lines 62 to 68 of index.html 
+or lines 58 to 64 of tour-of-monaco.html*/
 #call-to-action {
-    text-align: center;
+    border-radius: 4.8px;
+    background-color: rgba(255,147,0,0.75);
+    padding-left: 32px;
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-bottom: 64px;
+}
+
+.call-to-action-title {
+    font-family: "Poiret One", sans-serif;
     color: white;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 50px;
+    /*padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 12px;*/
+    margin-bottom: 0px;
 }
 
 #call-to-action-text {
     font-family: "Poiret One", sans-serif;
-    border-radius: 5px;
+    color:rgba(0,47,167,0.75);
+    border-radius: 4.8px;
     animation: blinker 2s linear infinite;
-    font-size: large;
-    margin: 0 auto;
-    max-width: 50%;
-    padding: 12px;
-    background-color: rgba(0,47,167,0.75);
+    font-size: x-large;
+    /*margin: 0 auto;*/
+    /*max-width: 50%;*/
+    /*padding-left: 12px;*/
+    /*background-color: rgba(0,47,167,0.75);*/
 }
 
 @keyframes blinker {
@@ -90,9 +122,14 @@ hr {
     color: rgba(0,47,167,0.75);
     background-color: rgba(255,255,255,0.75);
     border: 0;
+    margin-bottom: 6px;
     padding: 6px 12px!important;
     border-radius: 4px!important;
-    width: 75%;
+}
+
+.btn-discount:hover {
+    background-color: rgba(0,47,167,0.75);
+    color: white;
 }
 
 /* ----------------------------------------- Navigation */
@@ -103,6 +140,7 @@ hr {
     right: 0;
     width: 100%;
     padding: 0;
+    min-height:52px;
     overflow: hidden;
     font-family: "Poiret One", sans-serif;
     font-size: x-large;
@@ -112,9 +150,15 @@ hr {
 .navbar-brand-nicer-tours {
     position: absolute; 
     bottom: 0; 
-    font-size: x-large; 
     color: white; 
     padding: 8px 16px;
+}
+
+.navbar-brand-nicer-tours > h1,
+.navbar-brand-nicer-tours > h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 0;
 }
 
 #navbarTogglerNicerTours {
@@ -126,16 +170,20 @@ hr {
     padding-right: 16px;
 }
 
-/* From Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color and demo here: https://www.codeply.com/go/4FdZGlPMNV*/
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.nav-link a:active {
+    background-color: white;
+    color: rgba(0,47,167,0.75);
 }
 
 .custom-toggler {
-    border-color: rgb(255,255,255);
-    margin-right:16px; 
-    margin-top: 4px; 
-    margin-bottom:4px;
+    border-color: rgba(255,255,255,1);
+    margin-right: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 46px;
+    height: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .navbar-brand-nicer-tours:hover,
@@ -160,44 +208,36 @@ background-color: white;
 /*end of from https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/ */
 
 .navbar-brand-nicer-tours:hover,
-.nav-item > a:hover {
+.nav-item > a:hover,
+.nav-item > h2:hover {
     color: rgba(0,47,167,0.75);
     background-color: rgba(255,255,255,0.75);
 }
 
+.nav-item h1,
+.nav-item h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
 /* ----------------------------------------- Section main page */
-
-/* Carousel from Bootstrap */
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev{
-    display:block;
-}
-
-.main-content {
-    padding: 20px;
-}
 
 .main-slogan,
 .tour-destinations,
 .tour-options,
 .tour-reviews {
-    padding-top: 0;
-    padding-bottom: 15px;
+    padding: 16px;
+    text-align: center;
+}
+
+.main-slogan {
+    padding-bottom: 0;
 }
 
 #guaranteed-departure,
 #flexibility {
     text-align: center;
-}
-
-.main-slogan,
-.tour-options,
-.tour-destinations,
-.tour-reviews {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .guaranteed-departure-text,
@@ -209,7 +249,7 @@ background-color: white;
 
 #how-guaranteed-departure-works,
 #how-flexibility-works {
-    margin: 0 15px;
+    margin: 0 16px;
 }
 
 .btn-guaranteed-departure,
@@ -221,14 +261,11 @@ background-color: white;
 
 /* ----------------------------------------- Reviews */
 
-.reviews h4 {
-    margin-top: 8px;
-}
-
+/* Carousel from Bootstrap */
 .carousel-inner-reviews-mobile {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .card {
@@ -236,7 +273,7 @@ background-color: white;
 }
 
 .card-body {
-    padding: 20px 0 0;
+    padding: 16px 0;
 }
 
 .img-thumbnail {
@@ -245,7 +282,7 @@ background-color: white;
 }
 
 .review-block {
-    padding: 15px;
+    padding: 16px;
 }
 
 .left-review-name,
@@ -289,27 +326,14 @@ background-color: white;
 /* ----------------------------------------- Section tour pages */
 
 .tour-main-content {
-    padding: 20px;
+    padding: 16px;
 }
 
-.btn-light {
-    background-color: rgba(0,47,167,0.75);
-    border: 1px solid white;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.btn-light:hover {
-    background-color: white;
-    border: 1px solid rgba(0,47,167,0.75);
-    color: rgba(0,47,167,0.75);
-}
-
+/*Carousels from Bootstrap */
 .carousel-nice,
 .carousel-monaco,
 .carousel-st-paul {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 /* Text placement within carousel from Stack Overflow (https://stackoverflow.com/questions/25095260/bootstrap-caption-outside-carousel) */
@@ -322,6 +346,7 @@ background-color: white;
     font-size: 1.25rem;
 }
 
+/*Accordian from Bootstrap */
 .accordian-card-header {
     padding-left: 0px;
     padding-right: 0px;
@@ -348,11 +373,62 @@ background-color: white;
 
 .accordian-card-body {
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 
 #tour-of-nice-times-and-price-small {
-    padding-top: 15px;
+    padding-top: 16px;
+}
+
+/* ----------------------------------------- Contact Us Modal */
+
+.contact-us-form-name,
+.contact-us-form-email,
+.contact-us-form-message {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* ----------------------------------------- Book now page */
+
+.book-now-container {
+    padding: 16px;
+}
+
+.btn-go-to-payment,
+.btn-t-and-c-modal,
+.btn-back {
+    width: 100%;
+    margin-top: 0;
+}
+
+.btn-t-and-c-modal,
+.btn-back {
+    margin-bottom: 16px;
+}
+
+.booking-form {
+    text-align: center;
+}
+
+/* ----------------------------------------- Book Now Form */
+
+.book-now-form-name,
+.book-now-form-email,
+.book-now-form-tel {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.book-now-form-date {
+    width: auto;
+}
+
+.tour-option p {
+    margin-top: 16px;
+    margin-bottom: 0;
 }
 
 /* ----------------------------------------- Footer */
@@ -360,7 +436,7 @@ background-color: white;
 .footer-section {
     background-color: rgba(0, 47, 167, 0.75);
     color:white;
-    padding-top: 20px;
+    padding-top: 16px;
 }
 
 .slogan {
@@ -396,64 +472,12 @@ background-color: white;
 .copyright {
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     font-weight: 100;
 }
 
 .footer-nav-item > a {
     color: white;
-}
-
-/* ----------------------------------------- Contact Us Modal */
-
-.contact-us-form-name,
-.contact-us-form-email,
-.contact-us-form-message {
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-/* ----------------------------------------- Book now page */
-
-.book-now-container {
-    padding: 20px;
-}
-
-.btn-go-to-payment,
-.btn-t-and-c-modal,
-.btn-back {
-    width: 100%;
-    margin-top: 0;
-}
-
-.btn-t-and-c-modal,
-.btn-back {
-    margin-bottom: 16px;
-}
-
-.booking-form {
-    text-align: center;
-}
-
-/* ----------------------------------------- Book Now Form */
-
-.book-now-form-name,
-.book-now-form-email,
-.book-now-form-tel {
-    width: 100%;
-    margin-bottom: 15px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.book-now-form-date {
-    width: auto;
-}
-
-.tour-option p {
-    margin-top: 15px;
-    margin-bottom: 0;
 }
 
 /* ----------------------------------------- Screen size */
@@ -467,7 +491,14 @@ background-color: white;
 
     .company-location,
     .tours-offered {
-        padding-bottom: 15px;
+        padding-bottom: 16px;
+    }
+
+    #call-to-action {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 

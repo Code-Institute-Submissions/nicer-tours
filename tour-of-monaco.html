@@ -10,49 +10,38 @@
 </head>
 
 <body>
-    <h1 class="d-none">Nicer Tours | Monaco</h1>
     <header class="hero-and-navigation">
         <!-- Container from Bootstrap -->
         <div class="container-fluid header-section">
             <div class="row">
                 <div class="col-sm-12 banner-image-monaco-banner">
 
-                    <!-- Call to action features css for #call-to-action-text from https://www.educative.io/edpresso (https://www.educative.io/edpresso/how-to-wrap-text-using-css), 
-                    Popover and script from w3schools.com 
-                    (https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=To%20create%20a%20popover%2C%20add,popover%22%20attribute%20to%20an%20element.&text=Note%3A%20Popovers%20must%20be%20initialized,call%20the%20popover()%20method),
-                    data-html="true" from http://jsfiddle.net/IrvinDominin/N5WTG/ 
-                    and flashing effect from Stack Overflow (https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css-3),
-                    specifically this example: http://jsfiddle.net/umz8t/6490/
-                    Making it work on iOS from Stack Overflow (https://stackoverflow.com/questions/34049600/bootstrap-popover-is-not-working-on-ipad-safari) -->
-                    <div id="call-to-action">
-                        <p id="call-to-action-text">10% off Flexbility tours to Monaco until 30th September<br><br>
-                        <a tabindex="0" role="button" class="btn btn-discount" data-placement="bottom" data-original-title="Copy this code on the <a href='book-your-tour.html'>Book Now</a> page" data-toggle="popover" data-trigger="focus" data-html="true" data-content="NICER10MONACO">Discount code</a></p>       
-                    </div>
-
                     <!-- Navbar from Bootstrap, heavily modified, including: 
-                    color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
-                    hamburger toggle icon color: Stck Overflow and demo: Stack Overflow  https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color (and demo here: https://www.codeply.com/go/4FdZGlPMNV) 
-                    Also, see CSS file (.custom-toggler, .navbar-toggler-icon, .navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a)for more details. -->
+                    Color chages for active links: Bootstrap Studio https://bootstrapstudio.io/forums/topic/change-color-of-the-active-state-of-nav-link/; 
+                    Hamburger toggle icon color from Bootstrap icons (https://icons.getbootstrap.com/icons/list/) 
+                    Also, see CSS file (.navbar-brand-nicer-tours-active, .navbar-personalised .navbar-nav > .active > a) for more details. -->
+
                     <nav class="navbar navbar-expand-lg navbar-personalised bg-personalised">
-                        <h2 class="d-none">Tour of Monaco</h2>
-                        <a class="navbar-brand navbar-brand-nicer-tours" href="index.html">Nicer Tours</a>
+                        <a class="navbar-brand navbar-brand-nicer-tours" href="index.html"><h1>Nicer Tours</h1></a>
                         
                         <div class="collapse navbar-collapse" id="navbarTogglerNicerTours">
                             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="tour-of-nice.html">Nice</a>
+                                <a class="nav-link" href="tour-of-nice.html"><h2>Nice</h2></a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="tour-of-monaco.html">Monaco <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="tour-of-monaco.html"><h2>Monaco <span class="sr-only">(current)</span></h2></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tour-of-st-paul-de-vence.html">St. Paul de Vence</a>
+                                <a class="nav-link" href="tour-of-st-paul-de-vence.html"><h2>St. Paul de Vence</h2></a>
                             </li>
                             </ul>
                         </div>
                         
                         <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerNicerTours" aria-controls="navbarTogglerNicerTours" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color:white;">
+                            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
                         </button>
                             
                     </nav>
@@ -61,8 +50,31 @@
         </div>
     </header>
 
+    <section class="cta">
+        <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 promotion">
+
+                        <!-- Call to action features css for #call-to-action-text from https://www.educative.io/edpresso (https://www.educative.io/edpresso/how-to-wrap-text-using-css), 
+                        Popover and script from w3schools.com 
+                        (https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=To%20create%20a%20popover%2C%20add,popover%22%20attribute%20to%20an%20element.&text=Note%3A%20Popovers%20must%20be%20initialized,call%20the%20popover()%20method),
+                        data-html="true" from http://jsfiddle.net/IrvinDominin/N5WTG/ 
+                        and flashing effect from Stack Overflow (https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css-3),
+                        specifically this example: http://jsfiddle.net/umz8t/6490/
+                        Making it work on iOS from Stack Overflow (https://stackoverflow.com/questions/34049600/bootstrap-popover-is-not-working-on-ipad-safari) -->
+                        <div class="container" id="call-to-action">
+                            <p class="display-4 call-to-action-title">10% Off!</p>
+                            <p id="call-to-action-text">10% off all Flexibility tours to Monaco booked before September 30.</p>
+                            <a tabindex="0" style="display=inline-block" role="button" class="btn btn-discount" data-placement="bottom" data-original-title="Copy this code on the <a href='book-your-tour.html'>Book Now</a> page" data-toggle="popover" data-trigger="focus" data-html="true" data-content="NICER10MONACO">Discount code</a>
+                            <a class="btn btn-discount" style="display=inline-block" href="book-your-tour.html" role="button">Book Now!</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
     <section class="monaco-tour-section">
-        <!-- Grid sizing responsive containers, accordion, carousel and buttons from Bootstrap -->
+        <!-- Grid sizing responsive containers, dropdown, accordion, carousel and buttons from Bootstrap -->
         <div class="container-fluid tour-main-content tour-of-nice-main-content">
             <div class="row justify-content-center">
                 <div class="col-sm-9">
@@ -114,11 +126,11 @@
                                 <h4>The village of Eze</h4>
                                 <div class="card">
                                     <div class="card-header accordian-card-header" id="eze-village">
-                                    <p class="mb-0">
-                                        <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Read More
-                                        </button>
-                                    </p>
+                                        <p class="mb-0">
+                                            <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Read More
+                                            </button>
+                                        </p>
                                     </div>
 
                                     <div id="collapseOne" class="collapse" aria-labelledby="eze-village" data-parent="#accordionMonaco">
@@ -137,12 +149,13 @@
                                 <h4>A photo opportunity from which you can photograph an entire country*</h4>
                                 <div class="card">
                                     <div class="card-header accordian-card-header" id="tete-de-chien">
-                                    <p class="mb-0">
-                                        <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Read More
-                                        </button>
-                                    </p>
+                                        <p class="mb-0">
+                                            <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                            </button>
+                                        </p>
                                     </div>
+
                                     <div id="collapseTwo" class="collapse" aria-labelledby="tete-de-chien" data-parent="#accordionMonaco">
                                         <div class="card-body accordian-card-body">
                                             <p>Above Monaco is the town of La Turbie, from which you will find a stunning view over the whole of the principality. 
@@ -159,12 +172,13 @@
                                 <h4>Monaco town and the Rock</h4>
                                 <div class="card">
                                     <div class="card-header accordian-card-header" id="le-rocher">
-                                    <p class="mb-0">
-                                        <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Read More
-                                        </button>
-                                    </p>
+                                        <p class="mb-0">
+                                            <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Read More
+                                            </button>
+                                        </p>
                                     </div>
+
                                     <div id="collapseThree" class="collapse" aria-labelledby="le-rocher" data-parent="#accordionMonaco">
                                         <div class="card-body accordian-card-body">
                                             <p>You’ll wind your way into Monaco along the road upon which Princess Grace, Grace Kelly, lost her life in 1982. 
@@ -182,12 +196,13 @@
                                 <h4>The <em>Grand Prix</em> Racetrack</h4>
                                 <div class="card">
                                     <div class="card-header accordian-card-header" id="grand-prix">
-                                    <p class="mb-0">
-                                        <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Read More
-                                        </button>
-                                    </p>
+                                        <p class="mb-0">
+                                            <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Read More
+                                            </button>
+                                        </p>
                                     </div>
+
                                     <div id="collapseFour" class="collapse" aria-labelledby="grand-prix" data-parent="#accordionMonaco">
                                         <div class="card-body accordian-card-body">
                                            <p>Famous for its Formula One race, Monaco has held car races since 1929. 
@@ -200,12 +215,13 @@
                                 <h4>Casino Square</h4>
                                 <div class="card">
                                     <div class="card-header accordian-card-header" id="le-casino">
-                                    <p class="mb-0">
-                                        <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Read More
-                                        </button>
-                                    </p>
+                                        <p class="mb-0">
+                                            <button class="btn btn-link accordian-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Read More
+                                            </button>
+                                        </p>
                                     </div>
+
                                     <div id="collapseFive" class="collapse" aria-labelledby="le-casino" data-parent="#accordionMonaco">
                                         <div class="card-body accordian-card-body">
                                             <p>Inaugurated in 1863, the casino in Monaco was not the world’s first casino, but it is certainly the world’s most famous. 
@@ -427,4 +443,5 @@
     </script>
 
 </body>
+
 </html>
