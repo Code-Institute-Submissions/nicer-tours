@@ -44,13 +44,15 @@ discount popover has been included, along with the easy booking options on the b
 
 - ### Design:
     - #### Colour scheme:
-        The project uses two main colours, both emblematic of the city of Nice. 
-These two colour are the Yves Klein International Blue, contrasted with white.
+        The project uses three main colours, both emblematic of the city of Nice. 
+These three colours are the Yves Klein International Blue, contrasted with orange, and a pure white.
 
         1) Nice - main city of the *Côte d'Azur* which in itself means Blue Coast - is famous for its blue skies and 
 blue sea. The Yves Klein International Blue (rgb 0,47,167) was created by the artist Yves Klein, himself born in Nice.
 
-        2) A pure, simple white background was chosen as white represents light, another quality of which Nice and the surrounding area is famous for.
+        2) Orange reminds the viewer of the Mediterranean sun, and is also the opposite of blue on color wheels.
+
+        3) A pure, simple white background was chosen as white represents light, another quality of which Nice and the surrounding area is famous for.
 
     - #### Typography:
 
@@ -140,9 +142,17 @@ in the inclusion of the Call To Action popover. I included it for the challenge 
 The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) code verification tools were used to ensure
 there were no code errors in this project.
 
-[Home](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/home.mov)
+[Home](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/home.png)
 
+[Book Now](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/book-now.png)
 
+[CSS](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/css.png)
+
+[Tour of Nice](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/nice.png)
+
+[Tour of Monaco](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/monaco.png)
+
+[Tour of St Paul de Vence](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/st-paul.png)
 
 
 
