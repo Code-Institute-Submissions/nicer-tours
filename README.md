@@ -1,11 +1,16 @@
 <h1 align="center"><a href="https://justin-sawyer.github.io/nicer-tours/index.html">Nicer Tours</a></h1>
 
-<img src="documentation/screenshot.jpg">
+<img src="documentation/screenshot.png">
 
-This is my User Centric Frontend Development Milestone Project for Code Institute. 
-It is a resposive website designed to be accessible on all web browsers. 
+This is the website for Nicer Tours, a new company offering sightseeing tours of the South of France.
 
-The brief for the project is to create a three page website, using HTML5 and CSS as the core languages. 
+Nicer Tours guarantee tour departures through their "Guaranteed Departure" tour option, the only tour company able to offer this.
+Since tours have to be economically viable, many tours are cancelled during the off-season. Guaranteed departure allows the company to 
+run a profitable organisation all year round.
+
+However, the Guaranteed Departure option is not heavily promoted, because promoting a loss-leader is not a good business idea. Regular (Flexible Departures)
+are promoted as a means to allow the customer to believe they are getting the best possible deal, since they always pay the lowest price in this option. Equally, promoting
+Flexible Departure options allows the company to run with a maximum amount of customers for each tour.
 
 ## User Experience (UX)
 
