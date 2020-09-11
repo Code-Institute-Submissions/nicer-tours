@@ -154,82 +154,98 @@ there were no code errors in this project.
 
 [Tour of St Paul de Vence](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/st-paul.png)
 
+### Testing User Stories from User Experience (UX) Section
+- #### First Time Visitor Goals
+    1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that informs me about
+    the most interesting sights and places I can visit while on this vacation.
+        - Upon opening this website, the user is presented with a stunning banner image of the Bay of Angels. Within the navigation menu on desktop, 
+        the user can clearly discern three "must-see" places, and is led to them via this menu.
+        - Upon opening this website on mobile, the navigation menu is hidden by the "burger" icon. However, the user can still clearly see the most interesting
+        places to visit, since there are 3 carousels turning beneath the main banner image. A tag-line for each place is followed by a link that allows the user to discover more
+        about their choice of destination. It is precisely for this reason that the Call-to-Action is positioned beneath the carousels on smaller devices. 
+        The destinations are the most important reason for visiting this site. 
+
+    2) I want to have my interest piqued while I view the website, and thus choose to make a booking for a tour.
+        - The user's interest is piqued, but not overwhelmed. This is achieved through the use of either expanding "Read More" buttons (on larger devices)
+        or more direct accordian buttons (on mobile devices). As a tourist on vacation, the user prefers to be informed about the places the user will visit while 
+        the user is on the tour, but if the user wants to find out more, the user has the choice to through these buttons.
+        - 
+
+    3) As a first time visitor to the website and perhaps to the geographical area covered in the site, 
+    I am perhaps uninformed about the area I am visiting, and thus want to be informed first and foremost 
+    before choosing to book or not. Because of this, I do not want to feel pressured to buy, however a 
+    little special offer may help me choose this company rather than another.
+
+    4) I want to be able to navigate through the website easily, and be prompted where necessary to either 
+    contact the site creators (and service vendor) or make a booking easily if I choose to.
+        - From experience with people of an elder generation, the carousel beneath the banner image is very important for ease of navigation. 
+        The developer has had feedback from numerous people of an elder generation that they still are not used to navigating through the burger icon.
 
 
-hjhjkkhjkhkj
+    5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of 
+        tour company, so customer reviews and social comments about the company are very important.
+
+- #### Repeat Visitor Goals
+    1) As a returning visitor, I want to be able to add my story to the many reviews I have seen on the website.
+
+    2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded 
+    of the fun I had, and also be able to inform others about the service offered by the company. Thus, good 
+    navigation and design are important, but so is the general informative nature of the services and sights offered on the site.
+
+- #### Frequent Visitor Goals
+    1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on vacation once only.
+    It is not in the remit of this project to offer a professional "back-door" entrance to the services of this site. However, it is partly for this that the 
+    discount popover has been included, along with the easy booking options on the book now page.
+
+### Further Testing
+- This website has been tested on Google Chrome, Safari, 
+
+- This website has been tested on a variety of devices such as laptop, desktop, iPad (mini, full size), iPhone (SE, 6, 10, 11), 
+
+- Links were chercked, double checked and triple checked.
+
+- Friends, family and peers were asked to review this website to check for bugs, UX issues or design errors.
 
 ### Known Bugs:
 1) The w3.org HTML validator suggests using a "polyfiller" to ensure all browsers are compatible with the "date" 
 attribute in the form on the Book Now page.
 
+## Deployment
 
+## Credits
+### Code
+- [Bootstrap v4.5.2](https://getbootstrap.com/) was used extensively throughout this project for its responsive properties. 
+Many elements were taken from the Bootstrap library, such as Carousels and Accordians, but each element has been heavily modified for the needs of this website.
 
+- [W3Schools.com](https://www.w3schools.com/) was used extensively for research for this project.
 
-## Credits (general)
+- The [Rosie Odenkirk resumé project](https://justin-sawyer.github.io/ucd-resume/index.html)
 
-[Code Institute](https://codeinstitute.net/) for the tuition.
+- Where other 'non-original' code has been used, it has been credited within the html and css files.
+
+### media
+
+- Unless otherwise stated, all images are my own. Some may appear on [this website](https://www.sunnydaysnice.com). 
+The website owners are my former employers, and used my photos for their website.
+You can confirm this by email: welcome@sunnydays.fr
+
+### Content
+
+- All content written by the developer.
+
+## Acknowledgements
+
+[Code Institute](https://codeinstitute.net/) for the tuition, and the mentor I have been assigned.
 
 [This little fellow](https://www.sciencephoto.com/media/1008843/view/colorectal-cancer-cell-sem) for making me see sense.
 
 GG for the constant presence and encouragement. You are a pearl!
 
+My former employer, The Travel Expert, in the tourism industry. Without them, I would not have been in a position to make such a detailed project.
 
-## Credits (technologies, scripts)
-
-Bootstrap for the Navbar, banner-image containers, other containers and the majority of the modal code. 
-W3schools.com for instruction on form input types. 
-The [Rosie Odenkirk resumé project](https://justin-sawyer.github.io/ucd-resume/index.html) which I completed for Code Institue.
-
-Note on NavBar: 
-
-I used a nested container set up - the image is the first, and contains two further containers: 
-One on the left for the "company name" and one on the right for the navigation.
-
-As bootstrap NavBars conform to a format, that of image / nav links grouped on a certain side of the screen, 
-I decided that using a nested set up was better for what I was trying to achieve.
-
-What I wanted was a rising NavBar with the company name staying static at the bottom of its container.
-Thanks to [this Stack Overflow article](https://stackoverflow.com/questions/5288336/put-text-at-bottom-of-div) 
-I was able to achieve this effect.
-
-Similarly, [this article](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) 
-suggested the use of a Font Awesome icon for the toggle, as Bootstrap's toggles conform to set colours, 
-and try as I might, I could not change these presets.
-
-Further credits where due given within HTML pages.
-
-## Credits (photos)
-
-Unless otherwise stated, all images are my own. Some may appear on [this website](https://www.sunnydaysnice.com). 
-The website owners are my former employers, and used my photos for their website.
-You can confirm this by email: welcome@sunnydays.fr 
-
-## Influences, choice of colours & typography
-
-This project is inspired by my former employment as a tour guide in the city of Nice, France.
-
-The blue footer and button colours were chosen because this particular blue is emblematic of the city. 
-It is the [Yves Klein International Blue](https://en.wikipedia.org/wiki/International_Klein_Blue) and was created by Klein, resident of Nice.
-Although many believe that Klein copyrighted this colour, he in atual fact only registered it in a Soleau envelope, 
-and thus has no exclusive rights over the use of this colour.
-
-The Poiret One font was chosen as it reflects the period from which the city of Nice gained its modern prestige.
-It is a font that recalls the Belle Epoque period, from the early 20th Century, at time when Nice became famous not just with Europeans
-but also with the "nouveau riche" of the United States. A font that reminds of artistry, and is perfectly suited here as Nice is a city 
-with a huge influence in the world of Modern Art. 
-Its use on this site is designed to evoke this 1920s, 1930s period and the artistry that accompanied it.
-
-This project has the landing page and the tour pages accesible from the navigation elements, 
-plus one - a [book now](https://justin-sawyer.github.io/nicer-tours/book-your-tour.html) page that is accesible either from the popover on the 
-[home page](https://8000-f82da427-fbe1-4278-8b3d-f317c5c08256.ws-eu01.gitpod.io/index.html) 
-or via the buttons on each of the tour pages.
 ## Future plans
 
-Get :pseudos to function as they should.
 
-Create a dump page for the modals.
-
-Add terms & conditions to scrolling popover using popper.js script instead of their own .html page.
 
 ## Cloning & deploying
 

@@ -80,9 +80,9 @@ hr {
     padding-bottom: 0;
 }
 
-/* For credit of #call-to-action, #call-to-action-text and @keyframes see lines 62 to 68 of index.html 
+/* For credit of .call-to-action, .call-to-action-text and @keyframes see lines 62 to 68 of index.html 
 or lines 58 to 64 of tour-of-monaco.html*/
-#call-to-action {
+.call-to-action {
     border-radius: 4.8px;
     background-color: rgba(255,147,0,0.75);
     padding-left: 32px;
@@ -97,7 +97,7 @@ or lines 58 to 64 of tour-of-monaco.html*/
     margin-bottom: 0px;
 }
 
-#call-to-action-text {
+.call-to-action-text {
     font-family: "Poiret One", sans-serif;
     color:rgba(0,47,167,0.75);
     border-radius: 4.8px;
@@ -487,7 +487,7 @@ background-color: white;
         padding-bottom: 16px;
     }
 
-    #call-to-action {
+    .call-to-action {
         padding-top: 32px;
         padding-bottom: 32px;
         padding-left: 16px;
