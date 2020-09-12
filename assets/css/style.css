@@ -377,7 +377,10 @@ background-color: white;
 
 .contact-us-form-name,
 .contact-us-form-email,
-.contact-us-form-message {
+.contact-us-form-message,
+.contact-us-review-form-name,
+.contact-us-review-form-email,
+.contact-us-review-form-message {
     width: 100%;
     margin-bottom: 16px;
 }
@@ -492,6 +495,12 @@ background-color: white;
         padding-bottom: 32px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .btn-review {
+        width: 100%;
     }
 }
 

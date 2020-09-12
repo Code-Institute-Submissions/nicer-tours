@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://justin-sawyer.github.io/nicer-tours/index.html">Nicer Tours</a></h1>
 
-<img src="documentation/screenshot.png">
+<img src="documentation/image-aid/screenshot.png">
 
 This is the website for Nicer Tours, a new company offering sightseeing tours of the South of France.
 
@@ -8,56 +8,55 @@ Nicer Tours guarantee tour departures through their "Guaranteed Departure" tour 
 Since tours have to be economically viable, many tours are cancelled during the off-season. Guaranteed departure allows the company to 
 run a profitable organisation all year round.
 
-However, the Guaranteed Departure option is not heavily promoted, because promoting a loss-leader is not a good business idea. Regular (Flexible Departures)
-are promoted as a means to allow the customer to believe they are getting the best possible deal, since they always pay the lowest price in this option. Equally, promoting
-Flexible Departure options allows the company to run with a maximum amount of customers for each tour.
+However, the Guaranteed Departure option is not heavily promoted, because promoting a loss-leader is not a good business idea. Regular 
+(Flexible Departures) are promoted as a means to allow the customer to believe they are getting the best possible deal, since they 
+always pay the lowest price in this option. Equally, promoting Flexible Departure options allows the company to run with a maximum 
+amount of customers for each tour.
 
 ## User Experience (UX)
 
 - ### User stories:
     - #### First time visitors:
 
-        1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that informs me about
-the most interesting sights and places I can visit while on this vacation.
+        1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that 
+        informs me about the most interesting sights and places I can visit while on this vacation.
 
         2) I want to have my interest piqued while I view the website, and thus choose to make a booking for a tour.
 
-        3) As a first time visitor to the website and perhaps to the geographical area covered in the site, 
-I am perhaps uninformed about the area I am visiting, and thus want to be informed first and foremost 
-before choosing to book or not. Because of this, I do not want to feel pressured to buy, however a 
-little special offer may help me choose this company rather than another.
+        3) As a first time visitor to the website and perhaps to the geographical area covered in the site, and being on vacation, 
+        I do not want to feel pressured to buy. However a little special offer may help me choose this company rather than another.
 
         4) I want to be able to navigate through the website easily, and be prompted where necessary to either 
-contact the site creators (and service vendor) or make a booking easily if I choose to.
+        contact the site creators (and service vendor) or make a booking easily if I choose to.
 
         5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of 
-tour company, so customer reviews and social comments about the company are very important.
+        tour company, so customer reviews and social comments about the company are very important.
 
     - #### Returning visitors:
 
         1) As a returning visitor, I want to be able to add my story to the many reviews I have seen on the website.
 
         2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded 
-of the fun I had, and also be able to inform others about the service offered by the company. Thus, good 
-navigation and design are important, but so is the general informative nature of the services and sights offered on the site.
+        of the fun I had, and also be able to inform others about the service offered by the company. Thus, good 
+        navigation and design are important, but so is the general informative nature of the services and sights offered on the site.
 
     - #### Frequent visitors:
 
-        1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on vacation once only.
-It is not in the remit of this project to offer a professional "back-door" entrance to the services of this site. However, it is partly for this that the 
-discount popover has been included, along with the easy booking options on the book now page.
+        1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on 
+        vacation once only.
 
 - ### Design:
     - #### Colour scheme:
         The project uses three main colours, both emblematic of the city of Nice. 
-These three colours are the Yves Klein International Blue, contrasted with orange, and a pure white.
+        These three colours are the Yves Klein International Blue, contrasted with orange, and a pure white.
 
         1) Nice - main city of the *Côte d'Azur* which in itself means Blue Coast - is famous for its blue skies and 
-blue sea. The Yves Klein International Blue (rgb 0,47,167) was created by the artist Yves Klein, himself born in Nice.
+        blue sea. The Yves Klein International Blue (rgb 0,47,167) was created by the artist Yves Klein, himself born in Nice.
 
         2) Orange reminds the viewer of the Mediterranean sun, and is also the opposite of blue on color wheels.
 
-        3) A pure, simple white background was chosen as white represents light, another quality of which Nice and the surrounding area is famous for.
+        3) A pure, simple white background was chosen as white represents light, another quality of which Nice and the surrounding area 
+        is famous for.
 
     - #### Typography:
 
@@ -67,20 +66,22 @@ blue sea. The Yves Klein International Blue (rgb 0,47,167) was created by the ar
 This font was chosen as it represents the *Belle Epoque* era of the 1920s and 30s, a time when the *Côte d'Azur* and Nice itself were
 amongst the most fashionable of destinations.
 
-        2) The Open Sans font was chosen as the typeset for the main body of the website. Although Poiret One is an extremely elegant font, it would have been
-overkill to use this font uniquely. Thus, the equally elegant Open Sans font was chosen to compliment.
+        2) The Open Sans font was chosen as the typeset for the main body of the website. Although Poiret One is an extremely elegant font, 
+        it would have been overkill to use this font uniquely. Thus, the equally elegant Open Sans font was chosen to compliment.
 
         Both fonts use Sans Serif as a fallback if for in any case the chosen fonts do not render.
 
     - #### Imagery:
 
-        The website is designed to entice the user to either take a tour, to dream of their upcoming vacation or to tempt first time users to choose Nice and the *Côte d'Azur* for their next 
-vacation destination. It is for this reason that wide panoramic photos have been used for the banners to each page, while scrolling images (carousels) have been used as a further navigational aid on the home page.
+        The website is designed to entice the user to either take a tour, to dream of their upcoming vacation or to tempt first time users 
+        to choose Nice and the *Côte d'Azur* for their next vacation destination. It is for this reason that wide panoramic photos have 
+        been used for the banners to each page, while scrolling images (carousels) have been used as a further navigational aid on the 
+        home page.
 
 - ### Wireframes:
-    A hard lesson has been learned here. When I first embarked on this project, I was convinced that I had a very good idea of what I wanted this project to
-represent. And thus I did not believe a wireframe was particularly important. However, as the project evolved, grew and started to take shape, I have
-realised how wrong this aasumption was! 
+    A hard lesson has been learned here. When I first embarked on this project, I was convinced that I had a very good idea of what I 
+    wanted this project to represent. And thus I did not believe a wireframe was particularly important. However, as the project evolved, 
+    grew and started to take shape, I have realised how wrong this aasumption was! 
 
     [Home page for Desktop](https://justin-sawyer.github.io/nicer-tours/documentation/wireframe/desktop-home.png)
 
@@ -113,9 +114,11 @@ in the inclusion of the Call To Action popover. I included it for the challenge 
 ### Frameworks, Libraries & Programs:
 
 [Bootstrap v4.5.2](https://getbootstrap.com/)
-    forms the vast majority of the "formatting code" - the gird system, containers, button elements etc. - of this website. It was used because of its responsiveness and
+    forms the vast majority of the "formatting code" - the gird system, containers, button elements etc. - of this website. 
+    It was used because of its responsiveness and
     because it is compatible with so many browsers. While the underlying code may be from Bootstrap, I have in places heavily modified it
-    (or tried to!). A good example of this is the Navigation bar. The colours used, the position of the site name and the colour of the "burger" 
+    (or tried to!). A good example of this is the Navigation bar. The colours used, the position of the site name and the colour of 
+    the "burger" 
     icon. Credit for additional code used within is given in the HTML files themselves.
 
 [Google Fonts](https://fonts.google.com/)
@@ -163,51 +166,85 @@ there were no code errors in this project.
 - #### First Time Visitor Goals
     1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that informs me about
     the most interesting sights and places I can visit while on this vacation.
-        - Upon opening this website, the user is presented with a stunning banner image of the Bay of Angels. Within the navigation menu on desktop, 
-        the user can clearly discern three "must-see" places, and is led to them via this menu.
-        - Upon opening this website on mobile, the navigation menu is hidden by the "burger" icon. However, the user can still clearly see the most interesting
-        places to visit, since there are 3 carousels turning beneath the main banner image. A tag-line for each place is followed by a link that allows the user to discover more
-        about their choice of destination. It is precisely for this reason that the Call-to-Action is positioned beneath the carousels on smaller devices. 
-        The destinations are the most important reason for visiting this site. 
+        * Upon opening this website, the user is presented with a stunning banner image of the Bay of Angels. 
+        * Within the navigation menu on desktop, the user can clearly discern three "must-see" places, and is led to them via this menu.
+        * Upon opening this website on mobile, although the navigation menu is hidden by the "burger” icon, the user can still clearly 
+        see the most interesting places to visit, since the 3 carousels are directly beneath the main banner image. 
+        A tag-line for each place is followed by a link that allows the user to discover more about their choice of destination. 
+        (It is precisely for this reason that the Call-to-Action is positioned beneath the carousels on smaller devices.)
 
     2) I want to have my interest piqued while I view the website, and thus choose to make a booking for a tour.
-        - The user's interest is piqued, but not overwhelmed. This is achieved through the use of either expanding "Read More" buttons (on larger devices)
-        or more direct accordian buttons (on mobile devices). As a tourist on vacation, the user prefers to be informed about the places the user will visit while 
-        the user is on the tour, but if the user wants to find out more, the user has the choice to through these buttons.
-        - 
+        * The user's interest is piqued, but not overwhelmed. This is achieved tin different ways, depending on the screen size the 
+        user uses:
+            -   On larger devices, the “Read More” link expands to reveal more information; 
+            -   On smaller, mobile devices, titled buttons act as accordions to reveal more information.
 
-    3) As a first time visitor to the website and perhaps to the geographical area covered in the site, 
-    I am perhaps uninformed about the area I am visiting, and thus want to be informed first and foremost 
-    before choosing to book or not. Because of this, I do not want to feel pressured to buy, however a 
-    little special offer may help me choose this company rather than another.
+    3) As a first time visitor to the website and perhaps to the geographical area covered in the site, and being on vacation, I do 
+    not want to feel pressured to buy. However a little special offer may help me choose this company rather than another.
+        * Since the first time visitor is most likely to be accessing the site on a smaller device, the visitor has access first and 
+        foremost to the destinations. From each destination page, should the user choose, they can make a booking. 
+        * The Call-to-Action on smaller devices is situated beneath the carousels precisely to hint, rather than lead. 
+        There IS the possibility of a little offer, should the user choose to accept it. The Call-to-Action is also repeated, 
+        but this time more prominently, on the page where the offer applies. It is not a repetitive pop up screaming from each page, 
+        but rather, a simple reminder.
 
-    4) I want to be able to navigate through the website easily, and be prompted where necessary to either 
+    4) I want to be able to navigate through the website easily, and be prompted where necessary to either
     contact the site creators (and service vendor) or make a booking easily if I choose to.
-        - From experience with people of an elder generation, the carousel beneath the banner image is very important for ease of navigation. 
-        The developer has had feedback from numerous people of an elder generation that they still are not used to navigating through the burger icon.
+        * From experience with people of an elder generation, the carousel beneath the banner image is very important for ease of navigation. 
+        The developer has had feedback from numerous people of an elder generation that they still are not used to navigating through 
+        the burger icon. The carousels also allow for growth within the business - as new tours are developed and marketed, each carousel 
+        can be replaced with what is currently the biggest seller, or most appealing tour. Accordingly, this allows for the navigation menu 
+        (whether as an icon, or as a text menu) to grow, into possible subsections or destinations (for example, half day tours, 
+        full day tours, private tours, shore excursions for cruise ship passengers…)
+        * The current offer Call-to-Action on the home page allows the customer to note the offer code and both find out more 
+        and make a booking from the same place.
+        * From each tour page, should the user wish, the possibility to either contact 
+        the site creator or make a booking is clearly presented with bold blue buttons.
+        * Similarly, the footer section of each page is interactive: 
+            -   Each icon links to something, whether that is Facebook or WhatsApp;
+            -   The contact email address and telephone numbers are live linked;
+            -   The destinations are listed and are live linked.
 
-
-    5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of 
-        tour company, so customer reviews and social comments about the company are very important.
+    5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of
+    tour company, so customer reviews and social comments about the company are very important.
+        * On the home page, whether on smaller devices or larger ones, there are clearly displayed some customer reviews. 
+        These, of course, can be added to over time. Eventually, it may even be advantageous to add a reviews page to the site.
+        * Within the footer on each page, the visitor has access to the company’s Facebook, Instagram, 
+        Twitter and (most importantly) TripAdvisor pages. These pages offer unbiased reviews, and are openly accessible to eventual customers.
 
 - #### Repeat Visitor Goals
     1) As a returning visitor, I want to be able to add my story to the many reviews I have seen on the website.
+        * The returning visitor should not need to access the destination pages in order to leave a review. 
+        But conversely, the visitor should be able to leave a review in different places, since reviews left directly with the site 
+        owners can be policed, and may thus be biased. Consequently, on the home page, the visitor has the option via prominent 
+        buttons to leave a review either on:
+            -   Facebook;
+            -   TripAdvisor;
+            -   Or via direct communication with the company itself.
 
-    2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded 
-    of the fun I had, and also be able to inform others about the service offered by the company. Thus, good 
+    2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded
+    of the fun I had, and also be able to inform others about the service offered by the company. Thus, good
     navigation and design are important, but so is the general informative nature of the services and sights offered on the site.
+        * Navigation has been discussed heavily for the first time visitor. Please see these points, as they are the same for the repeat visitor. 
+        * The design of the site, having as it does, easy to see access points via the bold blue buttons allows the repeat 
+        visitor to easily guide their “word-of-mouth” referrals to each section of the website.
 
 - #### Frequent Visitor Goals
-    1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on vacation once only.
-    It is not in the remit of this project to offer a professional "back-door" entrance to the services of this site. However, it is partly for this that the 
-    discount popover has been included, along with the easy booking options on the book now page.
+    1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on 
+    vacation once only.
+        * Most travel professionals use booking sites such as Viator. 
+        However, via Nicer Tours intended distribution of mail-shots to professionals, the professional will need to access the site 
+        itself in order to benefit from any special offers. 
+        It is partly for this that the discount popover has been included, along with the easy booking options on the book now page. 
+        This also means that there is a constant flow of traffic to the site, and as a result, new tour destinations or offers will be 
+        seen by a growing audience.
 
 ### Further Testing
-- This website has been tested on Google Chrome, Safari, 
+- This website has been tested on Google Chrome, Safari, the built-in Internet browser on Samsung tablets
 
-- This website has been tested on a variety of devices such as laptop, desktop, iPad (mini, full size), iPhone (SE, 6, 10, 11), 
+- This website has been tested on a variety of devices such as laptop, desktop, iPad (mini, full size), iPhone (SE, 6, 10, 11), Samsung Galaxy Tab A, Xiaomi
 
-- Links were chercked, double checked and triple checked.
+- Links were checked, double checked and triple checked.
 
 - Friends, family and peers were asked to review this website to check for bugs, UX issues or design errors.
 
@@ -216,11 +253,52 @@ there were no code errors in this project.
 attribute in the form on the Book Now page.
 
 ## Deployment
+### GitHub
+This site was published to GitHub and deployed as a live site via the following steps:
+
+1) Log in to GitHub and locate the [repository](https://github.com/Justin-Sawyer/nicer-tours)
+
+2) Click "Settings" in the menu just above the file listings:
+
+<img src="documentation/image-aid/settings.png">
+
+3) Scroll down to GitHub Pages and select "Master Branch" from the Source list:
+
+<img src="documentation/image-aid/github-pages.png">
+
+4) The page will refresh. Scroll down again to GitHub Pages and select the now live [link](https://justin-sawyer.github.io/nicer-tours/index.html):
+
+<img src="documentation/image-aid/link.png">
+
+### Forking the GitHub repository
+Making a fork is like making a duplicate, from which one can edit the repository without affecting the original.
+
+1) Log in to GitHub and locate the [repository](https://github.com/Justin-Sawyer/nicer-tours)
+
+2) Click "Fork":
+
+<img src="documentation/image-aid/fork.png">
+
+3) A fork should now have been created in your GitHub account.
+
+### Making a local clone
+You can clone and deploy this in your GitHub Desktop application by following these steps:
+
+1) Log in to GitHub and locate the [repository](https://github.com/Justin-Sawyer/nicer-tours)
+
+2) Click the green "Code" button:
+
+<img src="documentation/image-aid/clone.png">
+
+3) Either click "Open with GitHub Desktop" and follow the prompts in the GitHub Desktop application, or alternatively follow the instructions 
+from [this link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop),
+depending on your Operating System.
 
 ## Credits
 ### Code
 - [Bootstrap v4.5.2](https://getbootstrap.com/) was used extensively throughout this project for its responsive properties. 
-Many elements were taken from the Bootstrap library, such as Carousels and Accordians, but each element has been heavily modified for the needs of this website.
+Many elements were taken from the Bootstrap library, such as Carousels and Accordians, but each element has been heavily modified 
+for the needs of this website.
 
 - [W3Schools.com](https://www.w3schools.com/) was used extensively for research for this project.
 
@@ -246,22 +324,10 @@ You can confirm this by email: welcome@sunnydays.fr
 
 GG for the constant presence and encouragement. You are a pearl!
 
-My former employer, The Travel Expert, in the tourism industry. Without them, I would not have been in a position to make such a detailed project.
+My former employer, The Travel Expert, in the tourism industry. Without them, I would not have been in a position to make such a 
+detailed project.
 
 ## Future plans
 
-
-
-## Cloning & deploying
-
-You can clone and deploy this in your GitHub Desktop application by following these steps:
-
-Navigate to this repository
-
-Click the green "Code" button
-
-Click "Open with GitHub Desktop"
-
-Follow the prompts in the GitHub Desktop application.
-
-## I hope you enjoy this project!
+As the company grows, the website will grow alongside. This will involve adding extra tour destination pages, sub-sections as mentioned above, 
+and a full reviews page with a gallery of photos taken by customers.
