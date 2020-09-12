@@ -302,6 +302,8 @@ for the needs of this website.
 
 - [W3Schools.com](https://www.w3schools.com/) was used extensively for research for this project.
 
+- [Stack Overflow](https://stackoverflow.com/) has been a fountain of knowledge in the production of this project. 
+
 - The [Rosie Odenkirk resumé project](https://justin-sawyer.github.io/ucd-resume/index.html)
 
 - Where other 'non-original' code has been used, it has been credited within the html and css files.
