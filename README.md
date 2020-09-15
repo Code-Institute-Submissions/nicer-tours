@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://justin-sawyer.github.io/nicer-tours/index.html">Nicer Tours</a></h1>
 
-<img src="documentation/image-aid/screenshot.png">
+<img src="documentation/deployment-screen-shots/screenshot.png">
 
 This is the website for Nicer Tours, a new company offering sightseeing tours of the South of France.
 
