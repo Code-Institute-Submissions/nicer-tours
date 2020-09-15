@@ -92,7 +92,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="tour-slideshow">
-                                <div id="carousel-nice" class="carousel slide carousel-fade" data-intervaal="6000" data-ride="carousel">
+                                <div id="carousel-nice" class="carousel slide carousel-fade" data-interval="6000" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                         <img class="d-block w-100" src="assets/images/panorama-of-nice-resized.jpg" alt="Panorama of Nice">
@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="card tour-slideshow">
-                                <div id="carousel-monaco" class="carousel slide carousel-fade" data-intervaal="6000" data-ride="carousel">
+                                <div id="carousel-monaco" class="carousel slide carousel-fade" data-interval="6000" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                         <img class="d-block w-100" src="assets/images/port-of-fontvieille-monaco.jpg" alt="Port of Fontvieille, Monaco">
@@ -136,7 +136,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="card tour-slideshow">
-                                <div id="carousel-st-paul" class="carousel slide carousel-fade" data-intervaal="6000" data-ride="carousel">
+                                <div id="carousel-st-paul" class="carousel slide carousel-fade" data-interval="6000" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                         <img class="d-block w-100" src="assets/images/st-paul-panorama-two.jpg" alt="St.Paul-de-Vence seen from the distance">
@@ -163,9 +163,9 @@
     </section>
 
     <section class="cta d-lg-none">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-9 promotion">
+        <div class="container col-lg-9 promotion">
+            <div class="row justify-content-center promo">
+                <!--<div class="col-lg-9 promotion">-->
 
                     <!-- Call to action features css for .call-to-action-text from https://www.educative.io/edpresso (https://www.educative.io/edpresso/how-to-wrap-text-using-css), 
                     Popover and script from w3schools.com 
@@ -183,7 +183,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        <!--</div>-->
     </section>
 
     <section class="nicer-tour-tour-options">
@@ -424,7 +424,7 @@
                     <div class="modal-body">
                         <!-- This <form> code is taken from the Rosie Odenkirk resumé project. 
                         It runs, but does not give a confirmation message, so I used the action="#" from w3schools to confirm form works -->
-                        <form class="contact-us-review-form" method="post" action="https://www.w3schools.com/action_page.php" target="_blank">
+                        <form class="contact-us-review-form" method="get" action="review-received.html">
                             <input class="contact-us-review-form-name" type="text" name="name" id="name" placeholder="Name" required />
                             <input class="contact-us-review-form-email" type="email" name="email" id="email" placeholder="Email" required />
                             <textarea class="contact-us-review-form-message" name="message" id="message" rows="5" placeholder="Review Nicer Tours" required></textarea>

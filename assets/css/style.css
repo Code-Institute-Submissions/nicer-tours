@@ -80,6 +80,15 @@ hr {
     padding-bottom: 0;
 }
 
+.promo {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#call-to-action-tour-page {
+        margin-bottom: 16px;
+    }
+
 /* For credit of .call-to-action, .call-to-action-text and @keyframes see lines 62 to 68 of index.html 
 or lines 58 to 64 of tour-of-monaco.html*/
 .call-to-action {
@@ -177,6 +186,10 @@ or lines 58 to 64 of tour-of-monaco.html*/
     height: 40px;
     padding-left: 4px;
     padding-right: 4px;
+}
+
+.nav-link > h2 {
+    padding-right: 16px;
 }
 
 .navbar-brand-nicer-tours:hover,
@@ -339,38 +352,8 @@ background-color: white;
     font-size: 1.25rem;
 }
 
-/*Accordian from Bootstrap */
-.accordian-card-header {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    background-color: transparent;
-    border-bottom-width: 0px;
-}
-
-.accordian-button {
-    color: rgba(0,47,167,0.75);
-    box-shadow: none;
-    padding-left: 0;
-}
-.accordian-button:hover {
-    color: rgba(0,47,167,0.75);
-    text-decoration: none;
-}
-
-.accordian-button:active,
-.accordian-button:focus {
-    box-shadow: none;
-    text-decoration: none;
-}
-
-.accordian-card-body {
-    padding-top: 0;
+.description-buttons {
     padding-bottom: 16px;
-}
-
-#tour-of-nice-times-and-price-small {
-    padding-top: 16px;
 }
 
 /* ----------------------------------------- Contact Us Modal */
@@ -425,6 +408,12 @@ background-color: white;
 .tour-option p {
     margin-top: 16px;
     margin-bottom: 0;
+}
+
+/* ----------------------------------------- Review Received page */
+
+.comment-recd {
+    text-align: center;
 }
 
 /* ----------------------------------------- Footer */
@@ -496,12 +485,50 @@ background-color: white;
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    .promotion {
+        padding-bottom: 16px;
+    }
 }
 
 @media screen and (max-width: 575px) {
     .btn-review {
         width: 100%;
     }
+
+    .times {
+        font-size: 1.5rem;
+    }
+
+    .price-list {
+        font-size: 1.25rem;
+    }
+
+    .btn-description {
+        color: rgba(0,47,167,0.75);
+        background-color: rgba(255,255,255,0.75);
+        border: 1px solid rgba(0,47,167,0.75);
+        margin-bottom: 6px;
+        padding: 6px 12px!important;
+        border-radius: 4px!important;
+    }
+
+    .btn-description:active,
+    .btn-description:focus {
+        background-color: rgba(0,47,167,0.75)!important;
+        color: white!important;
+        border: 1px solid rgba(0,47,167,0.75)!important;
+        box-shadow: none;
+    }
+
+    .btn-description:not(:disabled):not(.disabled).active, 
+    .btn-description:not(:disabled):not(.disabled):active, 
+    .show>.btn-description.dropdown-toggle {
+    color: white!important;
+    background-color: rgba(0,47,167,0.75)!important;
+    border-color: rgba(0,47,167,0.75)!important;
+    }
+
 }
 
 
