@@ -168,8 +168,7 @@ or lines 58 to 64 of tour-of-monaco.html*/
 }
 
 .nav-link {
-    color: white; 
-    padding-right: 16px;
+    color: white;
 }
 
 .nav-link a:active {
@@ -188,8 +187,13 @@ or lines 58 to 64 of tour-of-monaco.html*/
     padding-right: 4px;
 }
 
-.nav-link > h2 {
+/*.nav-link > h2 {
     padding-right: 16px;
+}*/
+
+.nav-item {
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .navbar-brand-nicer-tours:hover,
@@ -529,6 +533,13 @@ background-color: white;
     border-color: rgba(0,47,167,0.75)!important;
     }
 
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 
