@@ -187,11 +187,7 @@ or lines 58 to 64 of tour-of-monaco.html*/
     padding-right: 4px;
 }
 
-/*.nav-link > h2 {
-    padding-right: 16px;
-}*/
-
-.nav-item {
+.navbar-nav .nav-link {
     padding-right: 16px;
     padding-left: 16px;
 }
@@ -535,11 +531,11 @@ background-color: white;
 
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0;
         padding-left: 0;
     }
-}
+}*/
 
 
