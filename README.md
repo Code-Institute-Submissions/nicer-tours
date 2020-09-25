@@ -133,16 +133,19 @@ The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-va
         
 			-	Upon opening this website, the user is presented with a stunning banner image of the Bay of Angels. 
         	-	Within the navigation menu on desktop, the user can clearly discern three "must-see" places, and is led to them via this menu.
-        	-	Upon opening this website on mobile, although the navigation menu is hidden by the "burger” icon, the user can still clearly see the most interesting places to visit, since the 3 carousels are directly beneath the main banner image. A tag-line for each place is followed by a link that allows the user to discover more about their choice of destination. (It is precisely for this reason that the Call-to-Action is positioned beneath the carousels on smaller devices.)
+        	-	Upon opening this website on portable tablets, although the navigation menu is hidden by the "burger” icon, the user can still clearly see the most interesting places to visit, since the 3 carousels are directly beneath the main banner image. A tag-line for each place is followed by a link that allows the user to discover more about their choice of destination. (It is precisely for this reason that the Call-to-Action is positioned beneath the carousels on smaller devices.)
 
     	2) I want to have my interest aroused while I view the website, and thus choose to make a booking for a tour.
         	-	The user's interest is aroused, but not overwhelmed. This is achieved in different ways, depending on the screen size the user uses.
-            -	On larger devices, the “Read More” link expands to reveal more information.
-            -   On smaller, mobile devices, titled buttons act as accordions to reveal more information.
+                -	On larger devices (desktops and tablets), the user is presentd with a carousel of images of the destination, with a brief summary of the place itself.
+                Should the user wish to discover more within the site page, each white background description button expands to reveal more information. To the left,
+                the user can see two blue buttons, one of which is called "Book Now!" and leads the user to the booking page.
+                -   On smaller mobile devices (telephones), the user is presented with the same carousel, a simple tag line and the description buttons expand to reveal more information. Similarly,
+                beneath the tour departuer times information, the user can be taken to the booking page via the blue "Book Now!" button.
 
     	3) As a first time visitor to the website and perhaps to the geographical area covered in the site, and being on vacation, I do not want to feel pressured into buying. However a little special offer may help me choose this company rather than another.
         	-	Since the first time visitor is most likely to be accessing the site on a smaller device, the visitor has access first and foremost to the destinations. From each destination page, should the user choose, they can make a booking. 
-        	-	The Call-to-Action on smaller devices is situated beneath the carousels precisely to hint, rather than lead. There IS the possibility of a little offer, should the user choose to accept it. The Call-to-Action is also repeated, but this time more prominently, on the page where the offer applies. It is not a repetitive pop up screaming from each page, but rather, a simple reminder.
+        	-	The Call-to-Action on smaller devices is situated beneath the carousels precisely to hint, rather than lead. There _is_ the possibility of a little offer, should the user choose to accept it. The Call-to-Action is also repeated, but this time more prominently, on the page where the offer applies. It is not a repetitive pop up screaming from each page, but rather, a simple reminder.
             -   Equally, it is for this reason that the booking page is not featured in the top level navigation links.
 
     	4) I want to be able to navigate through the website easily, and be prompted where necessary to either contact the site creators (and service vendor) or make a booking easily if I choose to.

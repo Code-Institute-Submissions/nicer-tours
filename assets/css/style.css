@@ -363,23 +363,27 @@ background-color: white;
         margin-bottom: 6px;
         padding: 6px 12px!important;
         border-radius: 4px!important;
-    }
+}
 
-    .btn-description:active,
-    .btn-description:focus {
-        background-color: rgba(0,47,167,0.75)!important;
-        color: white!important;
-        border: 1px solid rgba(0,47,167,0.75)!important;
-        box-shadow: none;
-    }
-
-    .btn-description:not(:disabled):not(.disabled).active, 
-    .btn-description:not(:disabled):not(.disabled):active, 
-    .show>.btn-description.dropdown-toggle {
-    color: white!important;
+.btn-description:active,
+.btn-description:focus {
     background-color: rgba(0,47,167,0.75)!important;
-    border-color: rgba(0,47,167,0.75)!important;
-    }
+    color: white!important;
+    border: 1px solid rgba(0,47,167,0.75)!important;
+    box-shadow: none;
+}
+
+.btn-description:not(:disabled):not(.disabled).active, 
+.btn-description:not(:disabled):not(.disabled):active, 
+.show>.btn-description.dropdown-toggle {
+color: white!important;
+background-color: rgba(0,47,167,0.75)!important;
+border-color: rgba(0,47,167,0.75)!important;
+}
+
+.times-and-availability {
+    width: 50%;
+}
 
 /* ----------------------------------------- Contact Us Modal */
 
