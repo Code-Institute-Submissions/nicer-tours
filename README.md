@@ -134,8 +134,9 @@ The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-va
 			-	Upon opening this website, the user is presented with a stunning banner image of the Bay of Angels. 
         	-	Within the navigation menu on desktop, the user can clearly discern three "must-see" places, and is led to them via this menu.
             -	Upon opening this website on portable tablets, although the navigation menu is hidden by the "burger” icon, the user can still clearly see the most interesting places to visit, since the 3 carousels are directly beneath the main banner image. A tag-line for each place is followed by a link that allows the user to discover more about their choice of destination. (It is precisely for this reason that the Call-to-Action is positioned beneath the carousels on smaller devices.)
--   [Desktop Navigation image](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/nav-menu-desktop.png)
--   [Tablet Navigation image](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/nav-menu-tablet.png)
+            -   [Desktop Navigation image](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/nav-menu-desktop.png)
+            -   [Tablet Navigation image](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/nav-menu-tablet.png)
+            
     	2) I want to have my interest aroused while I view the website, and thus choose to make a booking for a tour.
         	-	The user's interest is aroused, but not overwhelmed. This is achieved in different ways, depending on the screen size the user uses.
                 -	On larger devices (desktops and tablets), the user is presentd with a carousel of images of the destination, with a brief summary of the place itself.
