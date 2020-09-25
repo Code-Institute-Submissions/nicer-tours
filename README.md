@@ -152,15 +152,16 @@ The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-va
     	4) I want to be able to navigate through the website easily, and be prompted where necessary to either contact the site creators (and service vendor) or make a booking easily if I choose to.
         	-	From experience with people of an older generation, the carousel beneath the banner image is very important for ease of navigation. The developer has had feedback from numerous people of that generation that they still are not used to navigating through the burger icon. The carousels also allow for growth within the business - as new tours are developed and marketed, each carousel can be replaced with what is currently the biggest seller, or most appealing tour. Accordingly, this allows for the navigation menu (whether as an icon, or as a text menu) to grow into possible subsections or destinations (for example, half day tours, full day tours, private tours, shore excursions for cruise ship passengers…)
         	-	The buttons in the Call-to-Action on the home page allows the customer to note the offer code by pressing the Discount Code button, find out more (directs to the tour page in question, and thus this button is absent in the tour page Call-to-Action) and make a booking from the same place: [Call-to-Action buttons, tour pages](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/call-to-action-buttons-home-page.png)
-        	-	From each tour page, should the user wish, the possibility to either contact the site creator or make a booking is clearly presented with bold blue buttons.
+        	-	From each tour page, should the user wish, the possibility to either contact the site creator or make a booking is clearly presented with bold blue buttons. [Desktop Contact Us button, tour pages](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/tour-page-info-expand-and-book-buttons-desktop.png)
         	-	Similarly, the footer section of each page is interactive: 
             	-	Each icon links to something, whether that is Facebook or WhatsApp;
             	-	The contact email address and telephone numbers are live linked;
             	-	The destinations are listed and are live linked.
+                -   [Footer, all pages](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/footer.png)
 
     	5) As a first time visitor who is also on vacation, I want to be sure that I have made the right choice of tour company, so customer reviews and social comments about the company are very important.
-        	-	On the home page, whether on smaller devices or larger ones, there are some clearly displayed customer reviews. These, of course, can be added to over time. Eventually, it may even be advantageous to add a reviews page to the site.
-        	-	Within the footer on each page, the visitor has access to the company’s Facebook, Instagram, Twitter and (most importantly) TripAdvisor pages. These pages offer unbiased reviews, and are openly accessible to eventual customers.
+        	-	On the home page, whether on smaller devices or larger ones, there are some clearly displayed customer reviews. These, of course, can be added to over time. Eventually, it may even be advantageous to add a reviews page to the site, hence there is a link to send in reviews with photos of the customers on the tour as well as links to review sites such as TripAdvisor: ["Review us" links, home page](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/reviews-section-home-page.png)
+        	-	Within the footer on each page, the visitor has access to the company’s Facebook, Instagram, Twitter and (most importantly) TripAdvisor pages. These pages offer unbiased reviews, and are openly accessible to eventual customers: [Social links, all pages](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/footer.png)
 
 	- #### Repeat Visitor Goals
     	1) As a returning visitor, I want to be able to add my story to the many reviews I have seen on the website.
@@ -168,6 +169,8 @@ The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-va
             	-   Facebook;
             	-   TripAdvisor;
             	-   Or via direct communication with the company itself.
+                -   [Review Us directly or through social media](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/review-us-directly-or-through-social-sites.png)
+                
 
     	2) As I will be returning to the site almost definitely after having taken a tour, I want to both be reminded of the fun I had, and also be able to inform others about the service offered by the company. Thus, good navigation and design are important, but so is the general informative nature of the services and sights offered on the site.
         	-	Navigation has been discussed heavily for the first time visitor. Please see these points, as they are the same for the repeat visitor. 
@@ -175,7 +178,7 @@ The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-va
 
 	- #### Frequent Visitor Goals
     	1) As a frequent visitor, I will probably be a professional in the tourist industry, since most people visit specific areas on vacation once only.
-        	-	Most travel professionals use booking sites such as Viator. However, through Nicer Tours' intended distribution of mail-shots to professionals, the professional will need to access the site itself in order to benefit from any special offers. It is partly for this that the discount popover has been included, along with the easy booking options on the book now page. This also means that there is a constant flow of traffic to the site, and as a result, new tour destinations or offers will be seen by a growing audience.
+        	-	Most travel professionals use booking sites such as Viator. However, through Nicer Tours' intended distribution of mail-shots to professionals, the professional will need to access the site itself in order to benefit from any special offers. It is partly for this that the discount popover has been included, along with the easy booking options on the book now page. This also means that there is a constant flow of traffic to the site, and as a result, new tour destinations or offers will be seen by a growing audience: [Call-to-Action with up-to-date current offers, home page](https://justin-sawyer.github.io/nicer-tours/documentation/user-stories-screen-shots/call-to-action-current-offers.png)
 
 - ### Further Testing
 	- This website has been tested on Google Chrome, Safari, the built-in Internet browser on Samsung tablets and Xiaomi phones.
