@@ -111,6 +111,8 @@ amongst the most fashionable of destinations.
 
 	[Balsamiq](https://balsamiq.com) was used for the creation of the wireframes.
 
+    [Compress PNG](https://compresspng.com/) was used for compressing images in the User Stories section of this README.md file.
+
 ## Testing:
 
 The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) code verification tools were used to ensure there were no code errors in this project.
