@@ -73,18 +73,6 @@ hr {
 
 /* ----------------------------------------- Call to Action */
 
-.promotion {
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 0;
-}
-
-.promo {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
 #call-to-action-tour-page {
         margin-bottom: 16px;
     }
@@ -98,6 +86,7 @@ or lines 58 to 64 of tour-of-monaco.html*/
     padding-top: 64px;
     padding-right: 32px;
     padding-bottom: 64px;
+    text-align: left;
 }
 
 .call-to-action-title {
@@ -229,16 +218,30 @@ background-color: white;
 
 /* ----------------------------------------- Section main page */
 
-.main-slogan,
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nicer-tours-slogan,
+.promotion,
 .tour-destinations,
 .tour-options,
 .tour-reviews {
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     text-align: center;
 }
 
-.main-slogan {
-    padding-bottom: 0;
+.tour-reviews {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nicer-tours-slogan {
+    padding-top: 16px;
 }
 
 #guaranteed-departure,
@@ -295,7 +298,6 @@ background-color: white;
 .left-review-text {
     text-align: left;
 }
-
 
 .right-review-name,
 .right-review-text {
@@ -496,6 +498,24 @@ border-color: rgba(0,47,167,0.75)!important;
 
 /* ----------------------------------------- Screen size */
 
+
+@media screen and (max-width: 1023px) {
+    .tour-destinations {
+        order: 1;
+    }
+
+    .promotion {
+        order: 2;
+    }
+
+    .call-to-action {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .company-location,
     .tours-offered,
@@ -513,10 +533,6 @@ border-color: rgba(0,47,167,0.75)!important;
         padding-bottom: 32px;
         padding-left: 16px;
         padding-right: 16px;
-    }
-
-    .promotion {
-        padding-bottom: 16px;
     }
 }
 

@@ -127,6 +127,8 @@ The W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-va
 
 [Tour of St Paul de Vence](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/st-paul.png)
 
+[Review Received](https://justin-sawyer.github.io/nicer-tours/documentation/code-verification/review-received.png)
+
 - ### Testing User Stories from User Experience (UX) Section
 	- #### First Time Visitor Goals
 		1) As a first time visitor, I am either planning or am on my vacation in Nice, France and I want to visit a website that informs me about the most interesting sights and places I can visit while on this vacation.
